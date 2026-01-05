@@ -1,0 +1,21 @@
+{
+	"core:rock" : {
+		"types" : {
+			"darkDimensionrocks" : {
+				"name" : "Rocks",
+				"templates" : {
+					"darkDimensionrocks1" : {
+						"animation" : "DarkDimensionLand/decorations/rocks/BRock",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionrocks2" : {
+						"animation" : "DarkDimensionLand/decorations/rocks/SRock",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					}
+				}
+			}
+		}
+	}
+}

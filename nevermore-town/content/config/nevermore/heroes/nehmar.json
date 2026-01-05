@@ -1,0 +1,56 @@
+{
+	"nn_nehmar" : 
+	{
+		"class" : "nn_madman",
+		"female" : false,
+		"texts" :
+		{
+			"name" : "Nehmar",
+			"biography" : "It so happened that one of the most powerful entities penetrated through the rift into the mortal world and, having saturated himself with the local magic, was able to discover the power to materialize his phantom body. Now he bears the name Nehmar",
+			"specialty" : 
+			{
+				"description" : "Casts Chain Lightning with increased effect, based on hero level.",
+				"tooltip" : "Spell Bonus: Chain Lightning",
+				"name" : "Chain Lightning"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "nevermore/heroes/Nehmar/Nehmar_as.bmp",
+			"specialtyLarge" : "nevermore/heroes/Nehmar/Nehmar_a.bmp",
+			"large" : "nevermore/heroes/Nehmar/Nehmar.bmp",
+			"small" : "nevermore/heroes/Nehmar/Nehmar_s.bmp"
+		},
+		"spellbook" :
+		[
+			"chainLightning"		
+                ],
+		"army" :
+		[
+			{ "creature" : "n_1lvl_arlequin", "min" : 10, "max" : 15 },
+			{ "creature" : "n_2lvl_screamer", "min" : 6, "max" : 9 },
+			{ "creature" : "n_3lvl_arm", "min" : 4, "max" : 6}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			},
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],	
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"subtype" : "spell.chainLightning",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

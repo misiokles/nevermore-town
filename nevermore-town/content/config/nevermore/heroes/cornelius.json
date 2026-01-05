@@ -1,0 +1,62 @@
+{
+	"nn_cornelius" :
+	{
+		"class" : "nn_illusionist",
+		"female" : false,
+
+		"images" :
+		{
+			"specialtySmall" : "nevermore/heroes/Cornelius/Cornelius_as.bmp",
+			"specialtyLarge" : "nevermore/heroes/Cornelius/Cornelius_a.bmp",
+			"large" : "nevermore/heroes/Cornelius/Cornelius.png",
+			"small" : "nevermore/heroes/Cornelius/Cornelius_s.png"
+		},
+
+
+		"army" : [
+			{
+				"creature" : "n_1lvl_arlequin",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "n_2lvl_screamer",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "n_3lvl_arm",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"spellbook" :
+		["clone"],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"clone" : {
+					"addInfo" : 3,
+					"subtype" : "spell.clone",
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+				}				
+			}
+		},	
+			
+		"texts" : {
+			"biography" : "In narrow circles, Cornelius is known as the Blind Mad Prophet, who prophesies of a coming era of chaos and madness. On this topic, he wrote a book called 101 Ways to Make Apple Jam. The content of the book is similar to a bunch of recipes, seasoned with all sorts of nonsense and delirium... that's what most people who have read it think. But there are those who don't think so, because the book reveals its true meaning to the chosen ones, and after reading it, the consciousness of these people changes forever.",
+			"name" : "Cornelius",
+			"specialty" : {
+				"description" : "Casts Clone always at expert effect.",
+				"tooltip" : "Spell Bonus: Clone",
+				"name" : "Clone"
+			}
+		}
+	}
+}
+

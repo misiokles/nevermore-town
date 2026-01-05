@@ -1,0 +1,62 @@
+{
+	"nn_azakor" :
+	{
+		"class" : "nn_madman",
+		"female" : false,
+
+		"texts" :
+		{
+			"name" : "Azakor",
+			"biography" : "The Dark Dimension is teeming with unknown and dangerous creatures, but few of them are likely to compare to the Flesh Lord Azakor. No one in Antagarich knows of his nature, and no one knows what exactly to expect when meeting him.",
+			"specialty" :
+			{
+				"description" : "Increses the Attack and Defense skill of any Cadaver for each level attained after 4th level.",
+				"tooltip" : "Specialty bonus: Cadaver",
+				"name" : "Cadaver"
+			}
+		},
+		
+		"images" :
+		{
+			"specialtySmall" : "nevermore/heroes/Azakor/Azakor_as.bmp",
+			"specialtyLarge" : "nevermore/heroes/Azakor/Azakor_a.bmp",
+			"large" : "nevermore/heroes/Azakor/Azakor.bmp",
+			"small" : "nevermore/heroes/Azakor/Azakor_s.bmp"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "n_1lvl_arlequin",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "nn_cadaver",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "n_2lvl_screamer",
+				"max" : 4,
+				"min" : 2
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "nn_cadaver"
+		}
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"core:trees" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"darkDimensionTre1" : {
+						"animation" : "DarkDimensionLand/decorations/trees/AForesL",
+						"mask" : [ "VVVV", "VVBB", "VBBV" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionTre2" : {
+						"animation" : "DarkDimensionLand/decorations/trees/AForesR",
+						"mask" : [ "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionTre3" : {
+						"animation" : "DarkDimensionLand/decorations/trees/BForesL",
+						"mask" : [ "VVVV", "VVBB", "VBBB", "VBBV" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionTre4" : {
+						"animation" : "DarkDimensionLand/decorations/trees/BForesR",
+						"mask" : [ "VVVV", "VBBV", "VBBB", "VVBB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionTre5" : {
+						"animation" : "DarkDimensionLand/decorations/trees/SForesL",
+						"mask" : [ "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionTre6" : {
+						"animation" : "DarkDimensionLand/decorations/trees/SForesR",
+						"mask" : [ "VVVV", "VVBB", "VBBV" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionTre7" : {
+						"animation" : "DarkDimensionLand/decorations/trees/BigTentacle",
+						"mask" : [ "VVV", "VBV", "VBV" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionTre8" : {
+						"animation" : "DarkDimensionLand/decorations/trees/ThreeTrees",
+						"mask" : [ "VVV", "VBV", "VBV" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionTre9" : {
+						"animation" : "DarkDimensionLand/decorations/trees/TwoTrees",
+						"mask" : [ "VVV", "VBV" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionTre10" : {
+						"animation" : "DarkDimensionLand/decorations/trees/Tree1",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionTre11" : {
+						"animation" : "DarkDimensionLand/decorations/trees/Tree2",
+						"mask" : [ "VVV", "VBV" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionTre12" : {
+						"animation" : "DarkDimensionLand/decorations/trees/Tree3",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					 },
+					"darkDimensionTre13" : {
+						"animation" : "DarkDimensionLand/decorations/trees/Tree4",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					 },
+					"darkDimensionTre14" : {
+						"animation" : "DarkDimensionLand/decorations/trees/Tree5",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					 }
+				}
+			}
+		}	
+	}	
+}
+	
+	

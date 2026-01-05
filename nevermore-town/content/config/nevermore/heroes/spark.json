@@ -1,0 +1,68 @@
+{
+	"nn_Spark" :
+	{
+		"class" : "nn_illusionist",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "nevermore/heroes/Spark/Spark_as.bmp",
+			"specialtyLarge" : "nevermore/heroes/Spark/Spark_a.bmp",
+			"large" : "nevermore/heroes/Spark/Spark.bmp",
+			"small" : "nevermore/heroes/Spark/Spark_s.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "n_1lvl_arlequin",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "n_2lvl_screamer",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "n_3lvl_arm",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"spellbook" :
+		[
+			"haste"
+		],
+		"skills" : [
+			{
+				"level" : "advanced",
+				"skill" : "sorcery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "necromancy"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SPELL_DAMAGE",
+					"val" : 7,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+			
+		"texts" : {
+			"biography" : "Not everyone had a happy ending to the madness in the elementary dimensions. Spark got stuck in the Dimension-between-Dimensions and spent a long time looking for a way out. The alien world played with her, putting up illusory gates that disappeared before her nose. When despair finally broke Spark, the fire in her soul went out. All that remained was an endless void that had worked her.",
+			"name" : "Spark",
+			"specialty" : {
+				"description" : "Receives a 7% per level bonus to Sorcery skill.",
+				"tooltip" : "Receives a 7% per level bonus to Sorcery skill.",
+				"name" : "Sorcery"
+			}
+		}
+	}
+}
+

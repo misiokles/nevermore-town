@@ -1,0 +1,62 @@
+{
+	"n_5lvl_horror": {
+		"name": {
+			"singular": "Horror",
+			"plural": "Horrors"
+		},
+		"upgrades": [
+			"n_5lvl_horror_up"
+		],
+		"level": 5,
+		"special": false,
+		"faction": "nevermore",
+		"cost": {
+			"gold": 380
+		},
+		"fightValue": 700,
+		"aiValue": 530,
+		"growth": 3,
+		"attack": 11,
+		"defense": 13,
+		"hitPoints": 50,
+		"speed": 3,
+		"damage": {
+			"min": 10,
+			"max": 15
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 13,
+			"min": 9
+		},
+		"doubleWide": true,
+		"abilities": {
+			"FearAbility": {
+				"type": "FEAR"
+				  },
+			"FearlessAbility": {
+				"type": "FEARLESS"
+				  }
+			     },
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation": "nevermore/creatures/battle/5lvl_horror.def",
+			"map": "nevermore/creatures/adventure/5lvl_horror_map.def",
+			"iconSmall": "nevermore/creatures/icon/5lvl_horror_s.bmp",
+			"iconLarge": "nevermore/creatures/portrait/5lvl_horror.bmp",
+			"timeBetweenFidgets": 1.00,
+			"animationTime": {
+				"walk": 1.4,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "nevermore/LVL5ATTK.wav",
+			"defend": "nevermore/LVL5DFND.wav",
+			"killed": "nevermore/LVL5KILL.wav",
+			"move": "nevermore/LVL5MOVE.wav",
+			"wince": "nevermore/LVL5WNCE.wav"
+		}
+	}
+}

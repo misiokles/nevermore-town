@@ -1,0 +1,58 @@
+{
+	"nn_absorber" :
+	{
+		"class" : "nn_madman",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "nevermore/heroes/Absorber/Absorber_as.bmp",
+			"specialtyLarge" : "nevermore/heroes/Absorber/Absorber_a.bmp",
+			"large" : "nevermore/heroes/Absorber/Absorber.bmp",
+			"small" : "nevermore/heroes/Absorber/Absorber_s.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "n_1lvl_arlequin", "min" : 9, "max" : 15 },
+			{ "creature" : "n_2lvl_screamer", "min" :  6, "max" :  9 },
+			{ "creature" : "n_3lvl_arm", "min" :  3, "max" :  6 }
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Absorber",
+			"biography" : "The Absorber was one of the first inhabitants of the Dimensions-between-Dimensions to set foot on the land of Enroth. He was also one of the first to taste the pain and despair of the inhabitants of this land. Eventually, he became so sated that he had to periodically return to his home world and give his surplus energy to his fellows.",
+			"specialty" :
+			{
+				"description" : "All enemies -1 morale during battle.",
+				"tooltip" : "Bonus: -1 Morale",
+				"name" : "-1 Morale"
+			}
+		},
+		"specialty" : {
+			"bonuses" : {
+				"badLuck" : {
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
+					"type" : "MORALE", 
+					"val" : -1 
+				}
+			}
+		}	
+	}
+}
+
+
+
+

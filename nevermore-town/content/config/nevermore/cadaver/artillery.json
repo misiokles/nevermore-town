@@ -1,0 +1,36 @@
+{
+  "core:artillery" : {
+		"base" : {
+			"effects" : {
+				"cannonExtra" : {
+					"subtype" : "creature.nn_cadaver",
+					"type" : "BONUS_DAMAGE_CHANCE",
+					"valueType" : "BASE_NUMBER"
+				},
+				"damagePower" : {
+					"subtype" : "creature.nn_cadaver",
+					"type" : "BONUS_DAMAGE_PERCENTAGE",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"effects" : {
+				"cannonExtra" : { "val" : 0 },
+				"damagePower" : { "val" : 0 }
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"cannonExtra" : { "val" : 75 },
+				"damagePower" : { "val" : 100 }
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"cannonExtra" : { "val" : 100 },
+				"damagePower" : { "val" : 200 }
+			}
+		}
+  }
+}

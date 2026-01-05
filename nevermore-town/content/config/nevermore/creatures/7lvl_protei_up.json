@@ -1,0 +1,80 @@
+{
+	"n_7lvl_protei_up": {
+		"name": {
+			"singular": "Dark Proteus",
+			"plural": "Dark proteas"
+		},
+		"level": 7,
+		"special": false,
+		"faction": "nevermore",
+		"cost": {
+			"crystal": 2,
+			"gold": 4500
+		},
+		"fightValue": 6300,
+		"aiValue": 8700,
+		"growth": 1,
+		"attack": 25,
+		"defense": 26,
+		"hitPoints": 240,
+		"speed": 15,
+		"damage": {
+			"min": 40,
+			"max": 50
+		},
+		"spellPoints": 0,
+		"advMapAmount": {
+			"max": 11,
+			"min": 4
+		},
+		"doubleWide": false,
+		"abilities": {
+			"deathStare" : 
+			{
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareGorgon",
+				"val" : 15,
+				"addInfo" : "spell.n_deathSight"
+			},
+			"drainsLife" :
+			{
+				"type" : "LIFE_DRAIN",
+				"val" : 50
+			},
+			"teleports" :
+			{
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+			"twoHex" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"castsCount" :
+			{
+				"type" : "GARGOYLE"
+			}
+			     },
+		"hasDoubleWeek": false,
+		"graphics": {
+			"animation": "nevermore/creatures/battle/7lvl_protei_up.def",
+			"map": "nevermore/creatures/adventure/7lvl_protei_up_map.def",
+			"iconSmall": "nevermore/creatures/icon/7lvl_protei_up_s.bmp",
+			"iconLarge": "nevermore/creatures/portrait/7lvl_protei_up.bmp",
+			"timeBetweenFidgets": 1.00,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": {
+			"attack": "BIND.wav",
+			"defend": "nevermore/LVL7DFND.wav",
+			"killed": "nevermore/LVL7KILL.wav",
+			"wince": "nevermore/LVL7WNCE.wav",
+			"startMoving": "nevermore/LVL7EXT.wav",
+			"endMoving": "nevermore/LVL7EXT.wav"
+		}
+	}
+}

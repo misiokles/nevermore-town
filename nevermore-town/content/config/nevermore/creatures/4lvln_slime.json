@@ -1,0 +1,59 @@
+{
+	"n_4lvln_slime":
+	{
+		"name" :
+		{
+			"plural" : "Slugs of the Beyond",
+			"singular" : "Slug of the Beyond"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "nevermore",
+		"aiValue" : 400,
+		"attack" : 11,
+		"cost" :
+		{
+			"gold" : 260
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 5
+		},
+		"defense" : 12,
+		"fightValue" : 400,
+		"graphics" :
+		{
+			"animation" : "nevermore/creatures/battle/4lvln_slime.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "nevermore/creatures/adventure/4lvln_slime_map.def",
+			"iconSmall" : "nevermore/creatures/icon/4lvln_slime_s.bmp",
+			"iconLarge" : "nevermore/creatures/portrait/4lvln_slime.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 5,
+		"hitPoints" : 45,
+		"level" : 4,
+	    "doubleWide" : true,		
+		"sound" :
+		{
+			"attack" : "nevermore/SLIMEATTK.wav",
+			"defend" : "nevermore/SLIMEDFND.wav",
+			"killed" : "nevermore/SLIMEKILL.wav",
+			"move" : "nevermore/SLIMEMOVE.wav",
+			"wince" : "nevermore/SLIMEWNCE.wav"
+		},
+		"speed" : 4,
+		"abilities" :
+		{
+		"fearless" :
+			{
+				"type" : "DEFENSIVE_STANCE",
+				"val" : 3
+			 }
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"nn_zantora" :
+	{
+		"class" : "nn_illusionist",
+		"female": true,
+		"images" :
+		{
+			"specialtySmall" : "nevermore/heroes/Zantora/Zantora_as.bmp",
+			"specialtyLarge" : "nevermore/heroes/Zantora/Zantora_a.bmp",
+			"large" : "nevermore/heroes/Zantora/Zantora.bmp",
+			"small" : "nevermore/heroes/Zantora/Zantora_s.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "n_1lvl_arlequin",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "n_2lvl_screamer",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "n_3lvl_arm",
+				"max" : 7,
+				"min" : 5
+			}
+		],
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			}
+		],
+		"specialty" : {
+			"secondary" : "mysticism"
+		},
+		
+		"texts" : {
+			"biography" : "Not long ago, Zantora terrified even her fellow necromancers from Shadow Peak with her research in the field of necromancy. Her obsession was turning bone dragons into absolute death machines. After the emergence of the Limits, her madness became so boundless that Sandro decided it was time to get rid of Zantora as far as possible. However, she left on her own and now serves the lords of madness and loves to travel the Dimension-between-dimensions, because the most terrible nightmares of people inspire her to new achievements.",
+			"name" : "Zantora",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Mysticism skill.",
+				"tooltip" : "Receives a 5% per level bonus to Mysticism skill.",
+				"name" : "Mysticism"
+			}
+		}
+	}
+}
+

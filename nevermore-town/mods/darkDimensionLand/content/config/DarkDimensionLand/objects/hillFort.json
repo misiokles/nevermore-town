@@ -1,0 +1,16 @@
+{
+	"core:hillFort" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"darkDimension_hillFort" : {
+						"animation" : "DarkDimensionLand/objects/hillfort/HillFort",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "VBB", "VBA"],
+						"allowedTerrains" : ["darkdimensionLand"]
+					}
+				}
+			}
+		}
+	}
+}

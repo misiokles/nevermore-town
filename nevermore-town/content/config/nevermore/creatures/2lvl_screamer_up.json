@@ -1,0 +1,70 @@
+{
+	"n_2lvl_screamer_up": {
+		"name": {
+			"singular": "Howler",
+			"plural": "Howlers"
+		},
+		"level": 2,
+		"special": false,
+		"faction": "nevermore",
+		"cost": {
+			"gold": 140
+		},
+		"fightValue": 150,
+		"aiValue": 190,
+		"growth": 9,
+		"attack": 5,
+		"defense": 5,
+		"hitPoints": 15,
+		"speed": 9,
+		"damage": {
+			"min": 2,
+			"max": 4
+		},
+		"advMapAmount": {
+			"max": 32,
+			"min": 18
+		},
+		"doubleWide": false,
+		"abilities": {
+			"scream": {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.n_Scream",
+				"val" : 30
+			},
+			"relatation" :
+			{
+				"type": "NO_RETALIATION"
+			},
+			"threeArrack" :
+			{
+				"type": "THREE_HEADED_ATTACK"
+			},
+			"fly" :
+			{
+				"type": "FLYING"
+			}
+		},
+		"hasDoubleWeek": true,
+		"graphics": {
+			"animation": "nevermore/creatures/battle/2lvl_screamer_up.def",
+			"map": "nevermore/creatures/adventure/2lvl_screamer_up_map.def",
+			"iconSmall": "nevermore/creatures/icon/2lvl_screamer_up_s.bmp",
+			"iconLarge": "nevermore/creatures/portrait/2lvl_screamer_up.bmp",
+			"timeBetweenFidgets": 1.00,
+			"animationTime": {
+				"walk": 1,
+				"idle": 10.00,
+				"attack": 1
+			}
+		},
+		"sound": 
+		{
+			"attack": "nevermore/LVL2ATTK.wav",
+			"defend": "GENIDFND.wav",
+			"killed": "nevermore/LVL2KILL.wav",
+			"move": "GENIMOVE.wav",
+			"wince": "nevermore/LVL2WNCE.wav"
+		}
+	}
+}

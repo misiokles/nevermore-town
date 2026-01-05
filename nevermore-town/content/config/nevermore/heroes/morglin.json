@@ -1,0 +1,47 @@
+{
+	"nn_morglin" :
+	{
+		"class" : "nn_illusionist",
+		"female" : false,
+		"images" :
+		{
+			"specialtySmall" : "nevermore/heroes/Morglin/Morglin_as.bmp",
+			"specialtyLarge" : "nevermore/heroes/Morglin/Morglin_a.bmp",
+			"large" : "nevermore/heroes/Morglin/Morglin.bmp",
+			"small" : "nevermore/heroes/Morglin/Morglin_s.bmp"
+		},
+
+		"army" :
+		[
+			{ "creature" : "n_1lvl_arlequin", "min" : 9, "max" : 15 },
+			{ "creature" : "n_2lvl_screamer", "min" :  6, "max" :  9 },
+			{ "creature" : "n_3lvl_arm", "min" :  3, "max" :  6 }
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		"texts" :
+		{
+			"name" : "Morglin",
+			"biography" : "Do you hear the clatter and clanking of buckets and kitchen utensils? That means the famous King of Enroth, Morglin Ironfist, is coming for your soul! But since he died long ago, he is most likely one of those people with great imagination who have a short circuit in their heads... In any case, this Morglin turned out to be a much better commander than the previous seven.",
+			"specialty" : 
+			{
+				"description" : "Receives a 5% per level bonus to Resistance skill.",
+				"tooltip" : "Resistance(unused)",
+				"name" : "Resistance"
+			}
+		},
+		"specialty" : {
+			"secondary" : "resistance"
+		}
+	}
+}

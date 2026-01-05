@@ -1,0 +1,250 @@
+{
+	"nevermore": {
+		"name": "Nevermore",
+		"alignment": "evil",
+		"boat" : "boatFortress",
+		"nativeTerrain": "dirt",
+		"creatureBackground": {
+			"120px": "nevermore/creaturebg120px",
+			"130px": "nevermore/creaturebg130px"
+		},
+		"town": {
+			"primaryResource": "crystal",
+			"buildingsIcons" : "nevermore/townhall",
+			"mapObject": {
+				"filters": {
+					"castle": [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel": [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort": [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
+				},
+				"templates": {
+					"capitol": {
+						"animation": "nevermore/map/capitol.def"
+					},
+					"castle": {
+						"animation": "nevermore/map/castle.def"
+					},
+					"citadel": {
+						"animation": "nevermore/map/citadel.def"
+					},
+					"fort": {
+						"animation": "nevermore/map/fort.def"
+					},
+					"village": {
+						"animation": "nevermore/map/village.def"
+					}
+				}
+			},
+			"musicTheme": [ "music/factions/nevermore/NevermoreTown" ],
+			"creatures": [
+				[
+					"n_1lvl_arlequin",
+					"n_1lvl_arlequin_up"
+				],
+				[
+					"n_2lvl_screamer",
+					"n_2lvl_screamer_up"
+				],
+				[
+					"n_3lvl_arm",
+					"n_3lvl_arm_up"
+				],
+				[
+					"n_4lvl_fantazm",
+					"n_4lvl_fantazm_up"
+				],
+				[
+					"n_5lvl_horror",
+					"n_5lvl_horror_up"
+				],
+				[
+					"n_6lvl_empat",
+					"n_6lvl_empat_up",
+					"n_6lvl_empat",
+					"n_6lvl_empat_up"
+				],
+				[
+					"n_7lvl_protei",
+					"n_7lvl_protei_up"
+				]
+			],
+			"guildWindow": "nevermore/town/mageguild",
+			"names": [
+				"Noctalm",
+				"Tenebris",
+				"Xardark",
+				"Voronit",
+				"Shadmor",
+				"Gargas",
+				"Zvad",
+				"Nevinal ",
+				"Illya",
+				"Morgad",
+				"Ensara"
+			],
+			"hallBackground": "TPTHBKCS.BMP",
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"special1"
+					]
+				],
+				[
+					[
+						"special2"
+					],
+					[
+						"horde2",
+						"horde2Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+			"moatAbility" : "castleMoat",
+			"horde": [
+				0,
+				5
+			],
+			"icons": {
+				"fort": {
+					"built": {
+						"large": "nevermore/icons/fortbuildedlarge.bmp",
+						"small": "nevermore/icons/fortbuildedsmall.bmp"
+					},
+					"normal": {
+						"large": "nevermore/icons/fortlarge.bmp",
+						"small": "nevermore/icons/fortsmall.bmp"
+					}
+				},
+				"village": {
+					"built": {
+						"large": "nevermore/icons/hallbuildedlarge.bmp",
+						"small": "nevermore/icons/hallbuildedsmall.bmp"
+					},
+					"normal": {
+						"large": "nevermore/icons/halllarge.bmp",
+						"small": "nevermore/icons/hallsmall.bmp"
+					}
+				}
+			},
+			"mageGuild": 4,
+			"defaultTavern": 5,
+			"tavern": {
+				"knight": 6,
+				"cleric": 3,
+				"ranger": 9,
+				"druid": 9,
+				"alchemist": 5,
+				"wizard": 5,
+				"demoniac": 1,
+				"heretic": 0,
+				"deathknight": 2,
+				"necromancer": 3,
+				"overlord": 3,
+				"warlock": 4,
+				"barbarian": 8,
+				"battlemage": 6,
+				"beastmaster": 8,
+				"witch": 4,
+				"planeswalker": 3,
+				"elementalist": 4
+			},
+			"tavernVideo": "TAVERN.BIK",
+			"townBackground": "nevermore/town/background",
+			"guildBackground" : "TPMAGE.bmp"
+		}
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"name": "Nevermore-town",
+	"description": "The new city of Nevermore",
+	"author": "Vovan1698",
+	"contact": "discord: Vovan1698",
+	"version": "1.0.1",
+	"modType": "Town",
+	"depends" : [ "hota.interference" ], 
+	"compatibility": {
+		"min": "1.7.0"
+	},
+	"changelog" : {
+		"1.0.1" : [
+			"Works with vmci-1.7"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]		
+	},
+	"softDepends" : 
+	[
+		"hota.cannon"
+	],
+	"russian": {
+		"name": "Предел",
+		"description": "Новый город Предел, созданный по наработкам hota-crew.",
+		"translations": [
+			"translation/nevermore/russian.json"
+		]
+	},
+	"factions": [
+		"config/nevermore/town/faction.json",
+		"config/nevermore/town/buildings.json",
+		"config/nevermore/town/structures.json",
+		"config/nevermore/town/spells.json",
+		"config/nevermore/town/siege.json",
+		"config/nevermore/town/puzzle.json"
+	],
+	"creatures": [
+		"config/nevermore/creatures/1lvl_arlequin.json",
+		"config/nevermore/creatures/1lvl_arlequin_up.json",
+		"config/nevermore/creatures/2lvl_screamer.json",
+		"config/nevermore/creatures/2lvl_screamer_up.json",
+		"config/nevermore/creatures/3lvl_arm.json",
+		"config/nevermore/creatures/3lvl_arm_up.json",
+		"config/nevermore/creatures/4lvl_fantazm.json",
+		"config/nevermore/creatures/4lvl_fantazm_up.json",
+		"config/nevermore/creatures/5lvl_horror.json",
+		"config/nevermore/creatures/5lvl_horror_up.json",
+		"config/nevermore/creatures/6lvl_empat.json",
+		"config/nevermore/creatures/6lvl_empat_up.json",
+		"config/nevermore/creatures/7lvl_protei.json",
+		"config/nevermore/creatures/7lvl_protei_up.json",
+		"config/nevermore/creatures/cmd_entity.json",
+		"config/nevermore/creatures/4lvln_slime.json",
+		"config/nevermore/cadaver/cadaverCreature.json"
+	],
+	"artifacts" :
+	[
+		"config/nevermore/cadaver/cadaverArtifact.json" 
+	],
+	"skills":
+	[
+		"config/nevermore/cadaver/artillery.json"
+	],
+	"heroClasses": [
+		"config/nevermore/classes/illusionist.json",
+		"config/nevermore/classes/madman.json"
+	],
+	"spells" :
+	[
+		"config/nevermore/spells/n_Explosion.json",
+		"config/nevermore/spells/n_PsychicBlow.json",
+		"config/nevermore/spells/n_PsychicBlowUp.json",
+		"config/nevermore/spells/n_Scream.json",
+		"config/nevermore/spells/n_DeathSight"
+	],
+	"heroes": [
+		"config/nevermore/heroes/absorber.json",
+		"config/nevermore/heroes/azakor.json",
+		"config/nevermore/heroes/cornelius.json",
+		"config/nevermore/heroes/destroyer.json",
+		"config/nevermore/heroes/fortune.json",
+		"config/nevermore/heroes/jack.json",
+		"config/nevermore/heroes/jenny.json",
+		"config/nevermore/heroes/ktahun.json",
+		"config/nevermore/heroes/morglin.json",
+		"config/nevermore/heroes/nehmar.json",
+		"config/nevermore/heroes/poison.json",
+		"config/nevermore/heroes/spark.json",
+		"config/nevermore/heroes/theodore.json",
+		"config/nevermore/heroes/vanessa.json",
+		"config/nevermore/heroes/whisper.json",
+		"config/nevermore/heroes/zantora.json"
+	],
+	"objects": [
+		"config/nevermore/dwellings.json"
+	]
+}
