@@ -26,7 +26,7 @@
 		{
 			"animation" : "nevermore/creatures/battle/gun_Cadaver.def",
 			"iconSmall" : "nevermore/creatures/icon/gun_Cadaver_s.png",
-			"iconLarge" : "nevermore/creatures/portrait/gun_Cadaver.png"
+			"iconLarge" : "nevermore/creatures/portrait/gun_Cadaver.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
