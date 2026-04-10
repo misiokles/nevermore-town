@@ -1,18 +1,18 @@
-{ 
+{
 	"nevermore" : {
 		"town" : {
 			"structures" : {
 				"animatedSky" : {
 					"animation" : "nevermore/buildings/fon",
 					"x" : 0,
-					"y" : 0,
+					"y" : 6,
 					"z" : 0
 				},
 				"mageGuild1" : {
 					"animation" : "nevermore/buildings/guild1",
 					"area" : "nevermore/town/area/guild1_a",
 					"border" : "nevermore/town/border/guild1_b",
-					"x" : 0,
+					"x" : 292,
 					"y" : 0,
 					"z" : 1
 				},
@@ -20,7 +20,7 @@
 					"animation" : "nevermore/buildings/guild2",
 					"area" : "nevermore/town/area/guild2_a",
 					"border" : "nevermore/town/border/guild2_b",
-					"x" : 0,
+					"x" : 292,
 					"y" : 0,
 					"z" : 1
 				},
@@ -28,7 +28,7 @@
 					"animation" : "nevermore/buildings/guild3",
 					"area" : "nevermore/town/area/guild3_a",
 					"border" : "nevermore/town/border/guild3_b",
-					"x" : 0,
+					"x" : 292,
 					"y" : 0,
 					"z" : 1
 				},
@@ -36,7 +36,7 @@
 					"animation" : "nevermore/buildings/guild4",
 					"area" : "nevermore/town/area/guild4_a",
 					"border" : "nevermore/town/border/guild4_b",
-					"x" : 0,
+					"x" : 292,
 					"y" : 0,
 					"z" : 1
 				},
@@ -44,122 +44,112 @@
 					"animation" : "nevermore/buildings/tavern",
 					"area" : "nevermore/town/area/tavern_a",
 					"border" : "nevermore/town/border/tavern_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 0
+					"x" : 483,
+					"y" : 188,
+					"z" : 1
 				},
 				"fort" : {
 					"animation" : "nevermore/buildings/fort",
 					"area" : "nevermore/town/area/fort_a",
 					"border" : "nevermore/town/border/fort_b",
 					"x" : 0,
-					"y" : 0,
-					"z" : 1
+					"y" : 119,
+					"z" : 0
 				},
 				"citadel" : {
 					"animation" : "nevermore/buildings/citadel",
 					"area" : "nevermore/town/area/citadel_a",
 					"border" : "nevermore/town/border/citadel_b",
 					"x" : 0,
-					"y" : 0,
-					"z" : 1
-				},				
+					"y" : 119,
+					"z" : 0
+				},
 				"castle" : {
 					"animation" : "nevermore/buildings/castle",
 					"area" : "nevermore/town/area/castle_a",
 					"border" : "nevermore/town/border/castle_b",
 					"x" : 0,
-					"y" : 0,
-					"z" : 1
+					"y" : 119,
+					"z" : 0
 				},
 				"villageHall" : {
 					"animation" : "nevermore/buildings/villageHall",
 					"area" : "nevermore/town/area/villageHall_a",
 					"border" : "nevermore/town/border/villageHall_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2
+					"x" : 591,
+					"y" : 138,
+					"z" : 1
 				},
 				"townHall" : {
 					"animation" : "nevermore/buildings/townHall",
 					"area" : "nevermore/town/area/townHall_a",
 					"border" : "nevermore/town/border/townHall_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2
+					"x" : 591,
+					"y" : 138,
+					"z" : 1
 				},
 				"cityHall" : {
 					"animation" : "nevermore/buildings/cityHall",
 					"area" : "nevermore/town/area/cityHall_a",
 					"border" : "nevermore/town/border/cityHall_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2
+					"x" : 591,
+					"y" : 138,
+					"z" : 1
 				},
 				"capitol" : {
 					"animation" : "nevermore/buildings/capitol",
 					"area" : "nevermore/town/area/capitol_a",
 					"border" : "nevermore/town/border/capitol_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 2
-				},				
+					"x" : 591,
+					"y" : 138,
+					"z" : 1
+				},
 				"blacksmith" : {
 					"animation" : "nevermore/buildings/blacksmith",
 					"area" : "nevermore/town/area/blacksmith_a",
 					"border" : "nevermore/town/border/blacksmith_b",
 					"x" : 0,
-					"y" : 0,
-					"z" : 0
+					"y" : 292,
+					"z" : 1
 				},
 				"marketplace" : {
 					"animation" : "nevermore/buildings/market",
 					"area" : "nevermore/town/area/market_a",
 					"border" : "nevermore/town/border/market_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 3
+					"x" : 625,
+					"y" : 291,
+					"z" : 2
 				},
 				"resourceSilo" : {
 					"animation" : "nevermore/buildings/resourseSilo",
 					"area" : "nevermore/town/area/resourseSilo_a",
 					"border" : "nevermore/town/border/resourseSilo_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 4
+					"x" : 625,
+					"y" : 291,
+					"z" : 3
 				},
 				"dwellingLvl1" : {
 					"animation" : "nevermore/buildings/lvl1",
 					"area" : "nevermore/town/area/lvl1_a",
 					"border" : "nevermore/town/border/lvl1_b",
-					"x" : 0,
-					"y" : 0,
+					"x" : 183,
+					"y" : 245,
 					"z" : 0
-				},			
+				},
 				"dwellingUpLvl1" : {
 					"animation" : "nevermore/buildings/lvl1up",
-					"area" : "nevermore/town/area/lvl1_a",
-					"border" : "nevermore/town/border/lvl1_b",
-					"x" : 0,
-					"y" : 0,
+					"area" : "nevermore/town/area/lvl1up_a",
+					"border" : "nevermore/town/border/lvl1up_b",
+					"x" : 183,
+					"y" : 245,
 					"z" : 0
 				},
-				"horde2" : {
+				"horde6" : {
 					"animation" : "nevermore/buildings/horde2",
-					"area" : "nevermore/town/area/lvl6_a",
-					"border" : "nevermore/town/border/lvl6_b",
+					"area" : "nevermore/town/area/horde2_a",
+					"border" : "nevermore/town/border/horde2_b",
 					"hidden" : true,
-					"x" : 0,
-					"y" : 0,
-					"z" : 0
-				},
-				"horde2Upgr" : {
-					"animation" : "nevermore/buildings/horde2up",
-					"area" : "nevermore/town/area/lvl6up_a",
-					"border" : "nevermore/town/border/lvl6up_b",
-					"hidden" : true,
-					"builds" : "horde2",
-					"x" : 0,
+					"x" : 562,
 					"y" : 0,
 					"z" : 0
 				},
@@ -167,121 +157,137 @@
 					"animation" : "nevermore/buildings/lvl3",
 					"area" : "nevermore/town/area/lvl3_a",
 					"border" : "nevermore/town/border/lvl3_b",
-					"x" : 0,
-					"y" : 0,
+					"x" : 356,
+					"y" : 134,
 					"z" : 0
 				},
 				"dwellingUpLvl3" : {
 					"animation" : "nevermore/buildings/lvl3up",
 					"area" : "nevermore/town/area/lvl3up_a",
 					"border" : "nevermore/town/border/lvl3up_b",
-					"x" : 0,
-					"y" : 0,
+					"x" : 356,
+					"y" : 134,
 					"z" : 0
 				},
 				"dwellingLvl2" : {
 					"animation" : "nevermore/buildings/lvl2",
 					"area" : "nevermore/town/area/lvl2_a",
 					"border" : "nevermore/town/border/lvl2_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 4
+					"x" : 504,
+					"y" : 183,
+					"z" : 2
 				},
 				"dwellingUpLvl2" : {
 					"animation" : "nevermore/buildings/lvl2up",
-					"area" : "nevermore/town/area/lvl2_a",
-					"border" : "nevermore/town/border/lvl2_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 4
+					"area" : "nevermore/town/area/lvl2up_a",
+					"border" : "nevermore/town/border/lvl2up_b",
+					"x" : 504,
+					"y" : 183,
+					"z" : 2
 				},
 				"dwellingLvl6" : {
 					"animation" : "nevermore/buildings/lvl6",
 					"area" : "nevermore/town/area/lvl6_a",
 					"border" : "nevermore/town/border/lvl6_b",
-					"x" : 0,
-					"y" : 0,
+					"x" : 499,
+					"y" : 19,
 					"z" : 1
 				},
 				"dwellingUpLvl6" : {
 					"animation" : "nevermore/buildings/lvl6up",
 					"area" : "nevermore/town/area/lvl6up_a",
 					"border" : "nevermore/town/border/lvl6up_b",
-					"x" : 0,
-					"y" : 0,
+					"x" : 503,
+					"y" : 19,
 					"z" : 1
 				},
 				"dwellingLvl5" : {
 					"animation" : "nevermore/buildings/lvl5",
 					"area" : "nevermore/town/area/lvl5_a",
 					"border" : "nevermore/town/border/lvl5_b",
-					"x" : 0,
-					"y" : 0,
+					"x" : 365,
+					"y" : 238,
 					"z" : 0
 				},
 				"dwellingUpLvl5" : {
 					"animation" : "nevermore/buildings/lvl5up",
 					"area" : "nevermore/town/area/lvl5up_a",
 					"border" : "nevermore/town/border/lvl5up_b",
-					"x" : 0,
-					"y" : 0,
+					"x" : 365,
+					"y" : 238,
+					"z" : 0
+				},
+				"dwellingLvl5B" : {
+					"animation" : "nevermore/buildings/lvl5a",
+					"area" : "nevermore/town/area/lvl5a_a",
+					"border" : "nevermore/town/border/lvl5a_b",
+					"x" : 386,
+					"y" : 223,
+					"z" : 0
+				},
+				"dwellingUpLvl5B" : {
+					"animation" : "nevermore/buildings/lvl5aup",
+					"area" : "nevermore/town/area/lvl5aup_a",
+					"border" : "nevermore/town/border/lvl5aup_b",
+					"x" : 386,
+					"y" : 223,
 					"z" : 0
 				},
 				"dwellingLvl4" : {
 					"animation" : "nevermore/buildings/lvl4",
 					"area" : "nevermore/town/area/lvl4_a",
 					"border" : "nevermore/town/border/lvl4_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 3
+					"x" : 148,
+					"y" : 29,
+					"z" : 0
 				},
 				"dwellingUpLvl4" : {
 					"animation" : "nevermore/buildings/lvl4up",
 					"area" : "nevermore/town/area/lvl4up_a",
 					"border" : "nevermore/town/border/lvl4up_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 3
+					"x" : 148,
+					"y" : 29,
+					"z" : 0
 				},
 				"dwellingLvl7" : {
 					"animation" : "nevermore/buildings/lvl7",
 					"area" : "nevermore/town/area/lvl7_a",
 					"border" : "nevermore/town/border/lvl7_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 3
-				},	
+					"x" : 297,
+					"y" : 204,
+					"z" : 0
+				},
 				"dwellingUpLvl7" : {
 					"animation" : "nevermore/buildings/lvl7up",
 					"area" : "nevermore/town/area/lvl7up_a",
 					"border" : "nevermore/town/border/lvl7up_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 3
+					"x" : 297,
+					"y" : 204,
+					"z" : 0
 				},
 				"special1" : {
 					"animation" : "nevermore/buildings/spec1",
 					"area" : "nevermore/town/area/spec1_a",
 					"border" : "nevermore/town/border/spec1_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 1,
-				},		
+					"x" : 612,
+					"y" : 64,
+					"z" : 0
+				},
 				"special2" : {
 					"animation" : "nevermore/buildings/spec2",
 					"area" : "nevermore/town/area/spec2_a",
 					"border" : "nevermore/town/border/spec2_b",
-					"x" : 0,
-					"y" : 0,
-					"z" : 0,
-				},	
+					"x" : 212,
+					"y" : 172,
+					"z" : 0
+				},
 				"grail" : {
 					"animation" : "nevermore/buildings/grail",
 					"area" : "nevermore/town/area/grail_a",
 					"border" : "nevermore/town/border/grail_b",
-					"x" : 0,
+					"x" : 274,
 					"y" : 0,
-					"z" : 2
+					"z" : 0
 				}
 			}
 		}

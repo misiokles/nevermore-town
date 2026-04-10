@@ -1,14 +1,12 @@
 {
-	"nn_zantora" :
-	{
+	"nn_zantora" : {
 		"class" : "nn_illusionist",
-		"female": true,
-		"images" :
-		{
-			"specialtySmall" : "nevermore/heroes/Zantora/Zantora_as.bmp",
-			"specialtyLarge" : "nevermore/heroes/Zantora/Zantora_a.bmp",
-			"large" : "nevermore/heroes/Zantora/Zantora.bmp",
-			"small" : "nevermore/heroes/Zantora/Zantora_s.bmp"
+		"female" : true,
+		"images" : {
+			"specialtySmall" : "nevermore/heroes/Zantora/Zantora_as.png",
+			"specialtyLarge" : "nevermore/heroes/Zantora/Zantora_a.png",
+			"large" : "nevermore/heroes/Zantora/Zantora.png",
+			"small" : "nevermore/heroes/Zantora/Zantora_s.png"
 		},
 		"army" : [
 			{
@@ -27,8 +25,7 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"magicArrow"
 		],
 		"skills" : [
@@ -42,9 +39,17 @@
 			}
 		],
 		"specialty" : {
-			"secondary" : "mysticism"
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
 		},
-		
+
 		"texts" : {
 			"biography" : "Not long ago, Zantora terrified even her fellow necromancers from Shadow Peak with her research in the field of necromancy. Her obsession was turning bone dragons into absolute death machines. After the emergence of the Limits, her madness became so boundless that Sandro decided it was time to get rid of Zantora as far as possible. However, she left on her own and now serves the lords of madness and loves to travel the Dimension-between-dimensions, because the most terrible nightmares of people inspire her to new achievements.",
 			"name" : "Zantora",
@@ -56,4 +61,3 @@
 		}
 	}
 }
-

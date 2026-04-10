@@ -1,74 +1,74 @@
 {
-	"n_1lvl_arlequin": {
-		"name": {
-			"singular": "Jester",
-			"plural": "Jesters"
+	"n_1lvl_arlequin" : {
+		"name" : {
+			"singular" : "Jester",
+			"plural" : "Jesters"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"n_1lvl_arlequin_up"
 		],
-		"level": 1,
-		"special": false,
-		"faction": "nevermore",
-		"cost": {
-			"gold": 45
+		"level" : 1,
+		"special" : false,
+		"faction" : "nevermore",
+		"cost" : {
+			"gold" : 45
 		},
-		"fightValue": 40,
-		"aiValue": 50,
-		"growth": 15,
-		"horde": 9,
-		"attack": 4,
-		"defense": 4,
-		"hitPoints": 6,
-		"shots": 5,
-		"speed": 6,
-		"damage": {
-			"min": 1,
-			"max": 2
+		"fightValue" : 40,
+		"aiValue" : 50,
+		"growth" : 15,
+		"horde" : 9,
+		"attack" : 4,
+		"defense" : 4,
+		"hitPoints" : 6,
+		"shots" : 5,
+		"speed" : 6,
+		"damage" : {
+			"min" : 1,
+			"max" : 2
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 55,
-			"min": 20
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 55,
+			"min" : 20
 		},
-		"doubleWide": false,
-		"abilities": {
-			"shooter": {
-				"type": "SHOOTER"
+		"doubleWide" : false,
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
 			},
-			"limit_shooter": {
-				"type": "LIMITED_SHOOTING_RANGE",
-				"val": 7
+			"limit_shooter" : {
+				"type" : "LIMITED_SHOOTING_RANGE",
+				"val" : 7
 			},
 			"Grenade" : {
-			"type" : "SPELL_LIKE_ATTACK",
-			"subtype" : "spell.n_missieBomb"
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.n_missieBomb"
 			}
-		},	
-		"hasDoubleWeek": true,
-		"graphics": {
-			"animation": "nevermore/creatures/battle/1lvl_harlequin.def",
-			"map": "nevermore/creatures/adventure/1lvl_harlequin_map.def",
-			"iconSmall": "nevermore/creatures/icon/1lvl_harlequin_s.bmp",
-			"iconLarge": "nevermore/creatures/portrait/1lvl_harlequin.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		},
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "nevermore/creatures/battle/1lvl_harlequin.def",
+			"map" : "nevermore/creatures/adventure/1lvl_harlequin_map.def",
+			"iconSmall" : "nevermore/creatures/icon/1lvl_harlequin_s.png",
+			"iconLarge" : "nevermore/creatures/portrait/1lvl_harlequin.png",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			},
-			"missile": {
-				"attackClimaxFrame": 5,
-				"projectile": "nevermore/creatures/battle/missie/missieBomb.def",
-				"offset": {
-					"upperX": 0,
-					"upperY": 0,
-					"middleX": 0,
-					"middleY": 0,
-					"lowerX": -5,
-					"lowerY": 20
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"projectile" : "nevermore/creatures/battle/missie/missieBomb.def",
+				"offset" : {
+					"upperX" : 0,
+					"upperY" : 0,
+					"middleX" : 0,
+					"middleY" : 0,
+					"lowerX" : -5,
+					"lowerY" : 20
 				},
-				"frameAngles": [
+				"frameAngles" : [
 					-90,
 					-45,
 					0,
@@ -77,13 +77,13 @@
 				]
 			}
 		},
-		"sound": {
-			"attack": "nevermore/LVL1ATTK.wav",
-			"defend": "nevermore/LVL1DFND.wav",
-			"killed": "nevermore/LVL1KILL.wav",
-			"move": "nevermore/LVL1MOVE.wav",
-			"shoot": "nevermore/LVL1SHOT.wav",
-			"wince": "nevermore/LVL1WNCE.wav"
+		"sound" : {
+			"attack" : "nevermore/Explosion.wav",
+			"defend" : "nevermore/LVL1DFND.wav",
+			"killed" : "nevermore/LVL1KILL.wav",
+			"move" : "nevermore/LVL1MOVE.wav",
+			"shoot" : "nevermore/LVL1SHOT.wav",
+			"wince" : "nevermore/LVL1WNCE.wav"
 		}
 	}
 }

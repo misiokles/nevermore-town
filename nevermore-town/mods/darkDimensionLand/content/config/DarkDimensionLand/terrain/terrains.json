@@ -1,18 +1,31 @@
 {
-	"darkdimensionLand" :
-	{
-		"text":"Dark Dimension Land",
+	"darkdimensionLand" : {
+		"text" : "Dark Dimension Land",
 		"moveCost" : 100,
-		"minimapUnblocked" : [ 46, 0, 94 ],
-		"minimapBlocked"   : [ 85, 72, 97 ],
-		"music" : [ "DarkDimensionLand/DDLand.ogg" ],
+		"minimapUnblocked" : [
+			46,
+			0,
+			94
+		],
+		"minimapBlocked" : [
+			85,
+			72,
+			97
+		],
+		"music" : [
+			"DarkDimensionLand/DDLand.ogg"
+		],
 		"tiles" : "DarkDimensionLand/terrain/darkDimensionLand",
 		"shortIdentifier" : "dd",
-		"battleFields" : ["darkdimensionlandBattlefields"],
+		"battleFields" : [
+			"darkdimensionlandBattlefields"
+		],
 		"terrainViewPatterns" : "dark",
-		"type":["SURFACE"],
+		"type" : [
+			"SURFACE"
+		],
 		"river" : "darkdimensionLandRiver",
-		"rockTerrain":"rock",
+		"rockTerrain" : "rock",
 		"horseSound" : "horse02",
 		"horseSoundPenalty" : "horse22"
 	}

@@ -1,62 +1,88 @@
 {
-	"n_5lvl_horror": {
-		"name": {
-			"singular": "Horror",
-			"plural": "Horrors"
+	"n_5lvl_horror" : {
+		"name" : {
+			"singular" : "Horror",
+			"plural" : "Horrors"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"n_5lvl_horror_up"
 		],
-		"level": 5,
-		"special": false,
-		"faction": "nevermore",
-		"cost": {
-			"gold": 380
+		"level" : 5,
+		"special" : false,
+		"faction" : "nevermore",
+		"cost" : {
+			"gold" : 380
 		},
-		"fightValue": 700,
-		"aiValue": 530,
-		"growth": 3,
-		"attack": 11,
-		"defense": 13,
-		"hitPoints": 50,
-		"speed": 3,
-		"damage": {
-			"min": 10,
-			"max": 15
+		"fightValue" : 700,
+		"aiValue" : 530,
+		"growth" : 3,
+		"attack" : 11,
+		"defense" : 13,
+		"hitPoints" : 50,
+		"speed" : 3,
+		"damage" : {
+			"min" : 10,
+			"max" : 15
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 13,
-			"min": 9
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 13,
+			"min" : 9
 		},
-		"doubleWide": true,
-		"abilities": {
-			"FearAbility": {
-				"type": "FEAR"
-				  },
-			"FearlessAbility": {
-				"type": "FEARLESS"
-				  }
-			     },
-		"hasDoubleWeek": true,
-		"graphics": {
-			"animation": "nevermore/creatures/battle/5lvl_horror.def",
-			"map": "nevermore/creatures/adventure/5lvl_horror_map.def",
-			"iconSmall": "nevermore/creatures/icon/5lvl_horror_s.bmp",
-			"iconLarge": "nevermore/creatures/portrait/5lvl_horror.bmp",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1.4,
-				"idle": 10.00,
-				"attack": 1
+		"doubleWide" : true,
+		"abilities" : {
+			"fearful" : {
+				"type" : "NONE",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"propagationBonus" : {
+					"type" : "FEARFUL",
+					"valueType" : "ADDITIVE_VALUE",
+					"description" : "Has ${val}% chance to skip its turn.",
+					"val" : 10
+				},
+				"description" : "Induces fear in enemy units",
+				"icon" : "nevermore/icons/bonuses/e_fear",
+				"limiters" : [
+					"OPPOSITE_SIDE",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				]
+			},
+			"fearless" : {
+				"type" : "NONE",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"propagationBonus" : {
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER"
+				},
+				"description" : "immunity to fear",
+				"icon" : "nevermore/icons/bonuses/e_fearl"
 			}
 		},
-		"sound": {
-			"attack": "nevermore/LVL5ATTK.wav",
-			"defend": "nevermore/LVL5DFND.wav",
-			"killed": "nevermore/LVL5KILL.wav",
-			"move": "nevermore/LVL5MOVE.wav",
-			"wince": "nevermore/LVL5WNCE.wav"
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "nevermore/creatures/battle/5lvl_horror.def",
+			"map" : "nevermore/creatures/adventure/5lvl_horror_map.def",
+			"iconSmall" : "nevermore/creatures/icon/5lvl_horror_s.png",
+			"iconLarge" : "nevermore/creatures/portrait/5lvl_horror.png",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1.4,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "nevermore/LVL5ATTK.wav",
+			"defend" : "nevermore/LVL5DFND.wav",
+			"killed" : "nevermore/LVL5KILL.wav",
+			"move" : "nevermore/LVL5MOVE.wav",
+			"wince" : "nevermore/LVL5WNCE.wav"
 		}
 	}
 }

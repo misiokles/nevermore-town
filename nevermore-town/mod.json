@@ -1,34 +1,24 @@
 {
-	"name": "Nevermore-town",
-	"description": "The new city of Nevermore",
-	"author": "Vovan1698",
-	"contact": "discord: Vovan1698",
-	"version": "1.0.1",
-	"modType": "Town",
-	"depends" : [ "hota.interference" ], 
-	"compatibility": {
-		"min": "1.7.0"
-	},
-	"changelog" : {
-		"1.0.1" : [
-			"Works with vmci-1.7"
-		],
-		"1.0.0" : [
-			"Initial release"
-		]		
-	},
-	"softDepends" : 
-	[
-		"hota.cannon"
+	"name" : "Nevermore-town",
+	"description" : "The new city of Nevermore",
+	"author" : "Vovan1698",
+	"contact" : "discord: Vovan1698",
+	"version" : "1.0",
+	"modType" : "Town",
+	"depends" : [
+		"hota.interference"
 	],
-	"russian": {
-		"name": "Предел",
-		"description": "Новый город Предел, созданный по наработкам hota-crew.",
-		"translations": [
+	"compatibility" : {
+		"min" : "1.6.0"
+	},
+	"russian" : {
+		"name" : "Предел",
+		"description" : "Новый город Предел, созданный по наработкам hota-crew.",
+		"translations" : [
 			"translation/nevermore/russian.json"
 		]
 	},
-	"factions": [
+	"factions" : [
 		"config/nevermore/town/faction.json",
 		"config/nevermore/town/buildings.json",
 		"config/nevermore/town/structures.json",
@@ -36,7 +26,7 @@
 		"config/nevermore/town/siege.json",
 		"config/nevermore/town/puzzle.json"
 	],
-	"creatures": [
+	"creatures" : [
 		"config/nevermore/creatures/1lvl_arlequin.json",
 		"config/nevermore/creatures/1lvl_arlequin_up.json",
 		"config/nevermore/creatures/2lvl_screamer.json",
@@ -47,6 +37,8 @@
 		"config/nevermore/creatures/4lvl_fantazm_up.json",
 		"config/nevermore/creatures/5lvl_horror.json",
 		"config/nevermore/creatures/5lvl_horror_up.json",
+		"config/nevermore/creatures/5lvla_martyr.json",
+		"config/nevermore/creatures/5lvla_martyr_up.json",
 		"config/nevermore/creatures/6lvl_empat.json",
 		"config/nevermore/creatures/6lvl_empat_up.json",
 		"config/nevermore/creatures/7lvl_protei.json",
@@ -55,27 +47,25 @@
 		"config/nevermore/creatures/4lvln_slime.json",
 		"config/nevermore/cadaver/cadaverCreature.json"
 	],
-	"artifacts" :
-	[
-		"config/nevermore/cadaver/cadaverArtifact.json" 
+	"artifacts" : [
+		"config/nevermore/cadaver/cadaverArtifact.json"
 	],
-	"skills":
-	[
+	"skills" : [
 		"config/nevermore/cadaver/artillery.json"
 	],
-	"heroClasses": [
+	"heroClasses" : [
 		"config/nevermore/classes/illusionist.json",
 		"config/nevermore/classes/madman.json"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/nevermore/spells/n_Explosion.json",
 		"config/nevermore/spells/n_PsychicBlow.json",
 		"config/nevermore/spells/n_PsychicBlowUp.json",
 		"config/nevermore/spells/n_Scream.json",
-		"config/nevermore/spells/n_DeathSight"
+		"config/nevermore/spells/n_DeathSight",
+		"config/nevermore/spells/n_Curse"
 	],
-	"heroes": [
+	"heroes" : [
 		"config/nevermore/heroes/absorber.json",
 		"config/nevermore/heroes/azakor.json",
 		"config/nevermore/heroes/cornelius.json",
@@ -93,7 +83,37 @@
 		"config/nevermore/heroes/whisper.json",
 		"config/nevermore/heroes/zantora.json"
 	],
-	"objects": [
-		"config/nevermore/dwellings.json"
+	"battlefields" : [
+		"config/DarkDimensionLand/battlefields/battlefields.json"
+	],
+	"terrains" : [
+		"config/DarkDimensionLand/terrain/terrains.json"
+	],
+	"obstacles" : [
+		"config/DarkDimensionLand/obstacles/obstacles.json"
+	],
+	"rivers" : [
+		"config/DarkDimensionLand/terrain/rivers.json"
+	],
+	"objects" : [
+		"config/nevermore/dwellings.json",
+		"config/nevermore/banks/nevermoreBezdna.json",
+		"config/DarkDimensionLand/decorations/fracture.json",
+		"config/DarkDimensionLand/decorations/hole.json",
+		"config/DarkDimensionLand/decorations/monsters.json",
+		"config/DarkDimensionLand/decorations/mountains.json",
+		"config/DarkDimensionLand/decorations/rock.json",
+		"config/DarkDimensionLand/decorations/stone.json",
+		"config/DarkDimensionLand/decorations/shrub.json",
+		"config/DarkDimensionLand/decorations/trees.json",
+		"config/DarkDimensionLand/objects/abandonedMine.json",
+		"config/DarkDimensionLand/objects/hillFort.json",
+		"config/DarkDimensionLand/objects/mysticalGarden.json",
+		"config/DarkDimensionLand/objects/signs.json",
+		"config/DarkDimensionLand/objects/tavern.json",
+		"config/DarkDimensionLand/objects/treeOfKnowledge.json",
+		"config/DarkDimensionLand/objects/deltas.json",
+		"config/DarkDimensionLand/special/obelisk.json",
+		"config/DarkDimensionLand/special/mines.json"
 	]
 }

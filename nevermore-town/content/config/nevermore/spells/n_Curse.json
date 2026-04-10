@@ -1,0 +1,98 @@
+{
+	"n_Curse" : {
+		"type" : "ability",
+		"name" : "Curse of the Martyr",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 1,
+		"power" : 5,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
+			"conflux" : 0
+		},
+
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},
+			"noneOf" : {}
+		},
+
+		"graphics" : {
+			"iconEffect" : "nevermore/spells/curseEffect",
+			"iconImmune" : "nevermore/spells/curseImmune"
+		},
+
+		"animation" : {
+			"affect" : [
+				"C04SPW"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "CURSE"
+		},
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"range" : "0,1",
+				"description" : "{Curse of the Martyr}\n\nUses a curse spell on the area.",
+				"targetModifier" : {
+					"smart" : false
+				},
+				"cost" : 5,
+				"power" : 5,
+				"effects" : {
+					"alwaysMinimumDamage" : {
+						"val" : 0,
+						"type" : "ALWAYS_MINIMUM_DAMAGE",
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Curse of the Martyr}\n\nUses a curse spell on the area.",
+				"effects" : {
+					"alwaysMinimumDamage" : {
+						"val" : 1
+					}
+				}
+			},
+			"basic" : {
+				"description" : "{Curse of the Martyr}\n\nUses a curse spell on the area.",
+				"effects" : {
+					"alwaysMinimumDamage" : {
+						"val" : 1
+					}
+				}
+			},
+			"advanced" : {
+				"description" : "{Curse of the Martyr}\n\nUses a curse spell on the area.",
+				"effects" : {
+					"alwaysMinimumDamage" : {
+						"val" : 1
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Curse of the Martyr}\n\nUses a curse spell on the area.",
+				"effects" : {
+					"alwaysMinimumDamage" : {
+						"val" : 1
+					}
+				}
+			}
+		}
+	}
+}

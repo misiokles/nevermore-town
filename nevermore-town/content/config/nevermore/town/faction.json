@@ -1,19 +1,19 @@
 {
-	"nevermore": {
-		"name": "Nevermore",
-		"alignment": "evil",
+	"nevermore" : {
+		"name" : "Nevermore",
+		"alignment" : "evil",
 		"boat" : "boatFortress",
-		"nativeTerrain": "dirt",
-		"creatureBackground": {
-			"120px": "nevermore/creaturebg120px",
-			"130px": "nevermore/creaturebg130px"
+		"nativeTerrain" : "darkdimensionLand",
+		"creatureBackground" : {
+			"120px" : "nevermore/creaturebg120px",
+			"130px" : "nevermore/creaturebg130px"
 		},
-		"town": {
-			"primaryResource": "crystal",
+		"town" : {
+			"primaryResource" : "crystal",
 			"buildingsIcons" : "nevermore/townhall",
-			"mapObject": {
-				"filters": {
-					"castle": [
+			"mapObject" : {
+				"filters" : {
+					"castle" : [
 						"allOf",
 						[
 							"castle"
@@ -25,7 +25,7 @@
 							]
 						]
 					],
-					"citadel": [
+					"citadel" : [
 						"allOf",
 						[
 							"citadel"
@@ -37,7 +37,7 @@
 							]
 						]
 					],
-					"fort": [
+					"fort" : [
 						"allOf",
 						[
 							"fort"
@@ -50,26 +50,28 @@
 						]
 					]
 				},
-				"templates": {
-					"capitol": {
-						"animation": "nevermore/map/capitol.def"
+				"templates" : {
+					"capitol" : {
+						"animation" : "nevermore/map/capitol.def"
 					},
-					"castle": {
-						"animation": "nevermore/map/castle.def"
+					"castle" : {
+						"animation" : "nevermore/map/castle.def"
 					},
-					"citadel": {
-						"animation": "nevermore/map/citadel.def"
+					"citadel" : {
+						"animation" : "nevermore/map/citadel.def"
 					},
-					"fort": {
-						"animation": "nevermore/map/fort.def"
+					"fort" : {
+						"animation" : "nevermore/map/fort.def"
 					},
-					"village": {
-						"animation": "nevermore/map/village.def"
+					"village" : {
+						"animation" : "nevermore/map/village.def"
 					}
 				}
 			},
-			"musicTheme": [ "music/factions/nevermore/NevermoreTown" ],
-			"creatures": [
+			"musicTheme" : [
+				"music/factions/nevermore/NevermoreTown"
+			],
+			"creatures" : [
 				[
 					"n_1lvl_arlequin",
 					"n_1lvl_arlequin_up"
@@ -88,11 +90,11 @@
 				],
 				[
 					"n_5lvl_horror",
-					"n_5lvl_horror_up"
+					"n_5lvl_horror_up",
+					"n_5lvla_martyr",
+					"n_5lvla_martyr_up"
 				],
 				[
-					"n_6lvl_empat",
-					"n_6lvl_empat_up",
 					"n_6lvl_empat",
 					"n_6lvl_empat_up"
 				],
@@ -101,8 +103,8 @@
 					"n_7lvl_protei_up"
 				]
 			],
-			"guildWindow": "nevermore/town/mageguild",
-			"names": [
+			"guildWindow" : "nevermore/town/mageguild",
+			"names" : [
 				"Noctalm",
 				"Tenebris",
 				"Xardark",
@@ -115,8 +117,8 @@
 				"Morgad",
 				"Ensara"
 			],
-			"hallBackground": "TPTHBKCS.BMP",
-			"hallSlots": [
+			"hallBackground" : "nevermore/town/hall",
+			"hallSlots" : [
 				[
 					[
 						"villageHall",
@@ -156,8 +158,7 @@
 						"special2"
 					],
 					[
-						"horde2",
-						"horde2Upgr"
+						"horde6"
 					]
 				],
 				[
@@ -184,6 +185,10 @@
 						"dwellingUpLvl5"
 					],
 					[
+						"dwellingLvl5B",
+						"dwellingUpLvl5B"
+					],
+					[
 						"dwellingLvl6",
 						"dwellingUpLvl6"
 					],
@@ -194,57 +199,57 @@
 				]
 			],
 			"moatAbility" : "castleMoat",
-			"horde": [
+			"horde" : [
 				0,
 				5
 			],
-			"icons": {
-				"fort": {
-					"built": {
-						"large": "nevermore/icons/fortbuildedlarge.bmp",
-						"small": "nevermore/icons/fortbuildedsmall.bmp"
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "nevermore/icons/fortbuildedlarge.png",
+						"small" : "nevermore/icons/fortbuildedsmall.png"
 					},
-					"normal": {
-						"large": "nevermore/icons/fortlarge.bmp",
-						"small": "nevermore/icons/fortsmall.bmp"
+					"normal" : {
+						"large" : "nevermore/icons/fortlarge.png",
+						"small" : "nevermore/icons/fortsmall.png"
 					}
 				},
-				"village": {
-					"built": {
-						"large": "nevermore/icons/hallbuildedlarge.bmp",
-						"small": "nevermore/icons/hallbuildedsmall.bmp"
+				"village" : {
+					"built" : {
+						"large" : "nevermore/icons/hallbuildedlarge.png",
+						"small" : "nevermore/icons/hallbuildedsmall.png"
 					},
-					"normal": {
-						"large": "nevermore/icons/halllarge.bmp",
-						"small": "nevermore/icons/hallsmall.bmp"
+					"normal" : {
+						"large" : "nevermore/icons/halllarge.png",
+						"small" : "nevermore/icons/hallsmall.png"
 					}
 				}
 			},
-			"mageGuild": 4,
-			"defaultTavern": 5,
-			"tavern": {
-				"knight": 6,
-				"cleric": 3,
-				"ranger": 9,
-				"druid": 9,
-				"alchemist": 5,
-				"wizard": 5,
-				"demoniac": 1,
-				"heretic": 0,
-				"deathknight": 2,
-				"necromancer": 3,
-				"overlord": 3,
-				"warlock": 4,
-				"barbarian": 8,
-				"battlemage": 6,
-				"beastmaster": 8,
-				"witch": 4,
-				"planeswalker": 3,
-				"elementalist": 4
+			"mageGuild" : 4,
+			"defaultTavern" : 5,
+			"tavern" : {
+				"knight" : 6,
+				"cleric" : 3,
+				"ranger" : 9,
+				"druid" : 9,
+				"alchemist" : 5,
+				"wizard" : 5,
+				"demoniac" : 1,
+				"heretic" : 0,
+				"deathknight" : 2,
+				"necromancer" : 3,
+				"overlord" : 3,
+				"warlock" : 4,
+				"barbarian" : 8,
+				"battlemage" : 6,
+				"beastmaster" : 8,
+				"witch" : 4,
+				"planeswalker" : 3,
+				"elementalist" : 4
 			},
-			"tavernVideo": "TAVERN.BIK",
-			"townBackground": "nevermore/town/background",
-			"guildBackground" : "TPMAGE.bmp"
+			"tavernVideo" : "TAVERN.BIK",
+			"townBackground" : "nevermore/town/background",
+			"guildBackground" : "TPMAGE.png"
 		}
 	}
 }

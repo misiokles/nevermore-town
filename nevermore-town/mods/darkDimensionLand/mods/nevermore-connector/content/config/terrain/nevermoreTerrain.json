@@ -1,6 +1,5 @@
 {
-	"nevermore-town:nevermore" :
-	{
-		"nativeTerrain": "darkdimensionLand"
+	"nevermore-town:nevermore" : {
+		"nativeTerrain" : "darkdimensionLand"
 	}
 }

@@ -1,0 +1,73 @@
+{
+	"n_5lvla_martyr" : {
+		"name" : {
+			"singular" : "Martyr",
+			"plural" : "Martyrs"
+		},
+		"upgrades" : [
+			"n_5lvla_martyr_up"
+		],
+		"level" : 5,
+		"special" : false,
+		"faction" : "nevermore",
+		"cost" : {
+			"gold" : 370
+		},
+		"fightValue" : 750,
+		"aiValue" : 540,
+		"growth" : 3,
+		"attack" : 9,
+		"defense" : 10,
+		"hitPoints" : 70,
+		"speed" : 12,
+		"damage" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"advMapAmount" : {
+			"max" : 13,
+			"min" : 9
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+			"scream" : {
+				"type" : "ADJACENT_SPELLCASTER",
+				"subtype" : "spell.n_Curse"
+			},
+			"spellPoints" : {
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"curseImmun" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.n_Curse"
+			}
+		},
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "nevermore/creatures/battle/5lvla_martyr.def",
+			"map" : "nevermore/creatures/adventure/5lvla_martyr_map.def",
+			"iconSmall" : "nevermore/creatures/icon/5lvla_martyr_s.png",
+			"iconLarge" : "nevermore/creatures/portrait/5lvla_martyr.png",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "nevermore/LVL5AATTK.wav",
+			"defend" : "nevermore/LVL3DFND.wav",
+			"killed" : "nevermore/LVL5AKILL.wav",
+			"wince" : "nevermore/LVL5AWNCE.wav",
+			"shoot" : "nevermore/LVL5AMAGIC.wav",
+			"startMoving" : "nevermore/LVL5AEXT.wav",
+			"endMoving" : "nevermore/LVL5AFIN.wav"
+		}
+	}
+}

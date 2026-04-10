@@ -1,0 +1,74 @@
+{
+	"n_5lvla_martyr_up" : {
+		"name" : {
+			"singular" : "Damned Martyr",
+			"plural" : "Damned Martyrs"
+		},
+		"level" : 5,
+		"special" : false,
+		"faction" : "nevermore",
+		"cost" : {
+			"gold" : 430
+		},
+		"fightValue" : 700,
+		"aiValue" : 820,
+		"growth" : 3,
+		"attack" : 10,
+		"defense" : 10,
+		"hitPoints" : 75,
+		"speed" : 15,
+		"damage" : {
+			"min" : 9,
+			"max" : 11
+		},
+		"advMapAmount" : {
+			"max" : 13,
+			"min" : 9
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : "movementTeleporting"
+			},
+			"scream" : {
+				"type" : "ADJACENT_SPELLCASTER",
+				"subtype" : "spell.n_Curse"
+			},
+			"spellPoints" : {
+				"type" : "CASTS",
+				"val" : 6
+			},
+			"curseImmun" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.n_Curse"
+			},
+			"regenerate" : {
+				"type" : "HP_REGENERATION",
+				"val" : 40
+			}
+		},
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "nevermore/creatures/battle/5lvla_martyr_up.def",
+			"map" : "nevermore/creatures/adventure/5lvla_martyr_up_map.def",
+			"iconSmall" : "nevermore/creatures/icon/5lvla_martyr_up_s.png",
+			"iconLarge" : "nevermore/creatures/portrait/5lvla_martyr_up.png",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "nevermore/LVL5AATTK.wav",
+			"defend" : "nevermore/LVL3DFND.wav",
+			"killed" : "nevermore/LVL5AKILL.wav",
+			"wince" : "nevermore/LVL5AWNCE.wav",
+			"shoot" : "nevermore/LVL5AMAGIC.wav",
+			"startMoving" : "nevermore/LVL5AEXT.wav",
+			"endMoving" : "nevermore/LVL5AFIN.wav"
+		}
+	}
+}

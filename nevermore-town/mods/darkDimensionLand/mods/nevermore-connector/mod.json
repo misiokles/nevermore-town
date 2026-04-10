@@ -1,20 +1,19 @@
 {
-    "name" : "nevermore connector",
-    "description" : "",
+	"name" : "nevermore connector",
+	"description" : "",
 	"modType" : "Compatibility",
-    "version" : "1.0",
-    "author" : "",
-    "contact" : "none",
-	"changelog" :
-	{
-		"1.0"   : [ "Initial release" ]
+	"version" : "1.0",
+	"author" : "",
+	"contact" : "none",
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
 	},
-	"depends" :
-	[
+	"depends" : [
 		"nevermore-town"
 	],
-	"factions" :
-	[
+	"factions" : [
 		"config/terrain/nevermoreTerrain.json"
 	]
 }
