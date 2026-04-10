@@ -44,7 +44,7 @@
 			"biography": "This horror existed on Enroth even before the first rifts appeared. Fortune likes to play with her victims - She takes away the last hopes of some, others are incredibly lucky, but only so that in the end they too lose everything, including their sanity.",
 			"name": "Fortune",
 			"specialty": {
-				"description" : "{Fortune}\r\n\r\Casts Fortune always at expert effect.",
+				"description" : "{Fortune}\r\n\r\nCasts Fortune always at expert effect.",
 				"tooltip" : "Spell Bonus: Fortune",
 				"name" : "Fortune"
 			}

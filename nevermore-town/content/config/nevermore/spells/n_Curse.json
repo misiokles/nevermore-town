@@ -52,7 +52,7 @@
 				"description" : "{Curse of the Martyr}\n\nUses a curse spell on the area.",
 				"targetModifier":{"smart":false},
 				"cost" : 5,
-				"power" : 5
+				"power" : 5,
 				"effects" : {
 					"alwaysMinimumDamage" : {
 						"val" : 0,
