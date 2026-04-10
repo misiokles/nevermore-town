@@ -1,0 +1,16 @@
+{
+	"core:tavern" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"darkDimensionLand_tavern" : {
+						"animation" : "DarkDimensionLand/objects/tavern/Tavern",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "VVV", "VBB", "VAB"],
+						"allowedTerrains" : ["darkdimensionLand"]
+					} 
+				}
+			}
+		}
+	}
+}

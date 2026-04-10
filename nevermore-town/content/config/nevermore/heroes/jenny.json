@@ -23,15 +23,15 @@
 			"hypnotize"
 		],
 		"images": {
-			"large": "nevermore/heroes/Jenny/Jenny.bmp",
-			"small": "nevermore/heroes/Jenny/Jenny_s.bmp",
-			"specialtyLarge": "nevermore/heroes/Jenny/Jenny_a.bmp",
-			"specialtySmall": "nevermore/heroes/Jenny/Jenny_as.bmp"
+			"large": "nevermore/heroes/Jenny/Jenny.png",
+			"small": "nevermore/heroes/Jenny/Jenny_s.png",
+			"specialtyLarge": "nevermore/heroes/Jenny/Jenny_a.png",
+			"specialtySmall": "nevermore/heroes/Jenny/Jenny_as.png"
 		},
 		"skills": [
 			{
 				"level": "basic",
-				"skill": "wisdom"
+				"skill": "mysticism"
 			},
 			{
 				"level": "basic",
@@ -54,7 +54,7 @@
 			"specialty": {
 				"description": "Cast Hypnotize with maxed power.",
 				"name": "Hypnotize",
-				"tooltip": "Casts Hypnotize with expert effects. Starts with Hypnotize spell."
+				"tooltip": "{Hypnotize}\r\n\r\nCasts Hypnotize with expert effects. Starts with Hypnotize spell."
 			}
 		}
 	}

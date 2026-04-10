@@ -6,10 +6,10 @@
 
 		"images" :
 		{
-			"specialtySmall" : "nevermore/heroes/Spark/Spark_as.bmp",
-			"specialtyLarge" : "nevermore/heroes/Spark/Spark_a.bmp",
-			"large" : "nevermore/heroes/Spark/Spark.bmp",
-			"small" : "nevermore/heroes/Spark/Spark_s.bmp"
+			"specialtySmall" : "nevermore/heroes/Spark/Spark_as.png",
+			"specialtyLarge" : "nevermore/heroes/Spark/Spark_a.png",
+			"large" : "nevermore/heroes/Spark/Spark.png",
+			"small" : "nevermore/heroes/Spark/Spark_s.png"
 		},
 		"army" : [
 			{
@@ -39,7 +39,7 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "necromancy"
+				"skill" : "mysticism"
 			}
 		],
 		"specialty" : {

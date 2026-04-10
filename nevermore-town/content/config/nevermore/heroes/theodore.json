@@ -20,10 +20,10 @@
 		"class": "nn_illusionist",
 		"female" : false,
 		"images": {
-			"large": "nevermore/heroes/Theodore/Theodore.bmp",
-			"small": "nevermore/heroes/Theodore/Theodore_s.bmp",
-			"specialtyLarge": "nevermore/heroes/Theodore/Theodore_a.bmp",
-			"specialtySmall": "nevermore/heroes/Theodore/Theodore_as.bmp"
+			"large": "nevermore/heroes/Theodore/Theodore.png",
+			"small": "nevermore/heroes/Theodore/Theodore_s.png",
+			"specialtyLarge": "nevermore/heroes/Theodore/Theodore_a.png",
+			"specialtySmall": "nevermore/heroes/Theodore/Theodore_as.png"
 		},
 		"skills": [
 			{
@@ -32,7 +32,7 @@
 			},
 			{
 				"level": "basic",
-				"skill": "tactics"
+				"skill": "mysticism"
 			}
 		],
 		"specialty" : {
@@ -42,7 +42,7 @@
 			"biography": "Theodore was born on Regna and was a pretty ordinary pirate until he fell off the mast, hitting his head hard. After that, he began to hear voices that he could only drown out with booze and drugs... When the Limits arose, the voices turned into screams, escaping from which he smoked so much that he lost all connection with reality... Having come to his senses a little, Theodore found himself one of the commanders of the Limit armies. A lot of time has passed, but he still cannot understand whether this is a hallucination or reality.",
 			"name": "Theodore",
 			"specialty": {
-				"description" : "Increases the Attack and Defense skills of any Jesters and Harlequins he commands for each level attainded after 1st level.",
+				"description" : "{Jesters and Harlequins}\r\n\r\nIncreases the Attack and Defense skills of any Jesters and Harlequins he commands for each level attainded after 1st level.",
 				"tooltip" : "Creature bonus: Jesters",
 				"name" : "Jesters"
 			}

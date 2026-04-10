@@ -16,10 +16,10 @@
 		},
 		"images" :
 		{
-			"specialtySmall" : "nevermore/heroes/Nehmar/Nehmar_as.bmp",
-			"specialtyLarge" : "nevermore/heroes/Nehmar/Nehmar_a.bmp",
-			"large" : "nevermore/heroes/Nehmar/Nehmar.bmp",
-			"small" : "nevermore/heroes/Nehmar/Nehmar_s.bmp"
+			"specialtySmall" : "nevermore/heroes/Nehmar/Nehmar_as.png",
+			"specialtyLarge" : "nevermore/heroes/Nehmar/Nehmar_a.png",
+			"large" : "nevermore/heroes/Nehmar/Nehmar.png",
+			"small" : "nevermore/heroes/Nehmar/Nehmar_s.png"
 		},
 		"spellbook" :
 		[
@@ -35,7 +35,7 @@
 		[
 			{
 				"level" : "basic",
-				"skill" : "airMagic"
+				"skill" : "offence"
 			},
 			{
 				"level" : "basic",

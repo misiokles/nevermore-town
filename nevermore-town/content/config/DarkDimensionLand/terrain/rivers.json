@@ -1,0 +1,10 @@
+{
+    "darkdimensionLandRiver" : {
+      "text" : "Faults",
+      "shortIdentifier" : "dr",
+      "tilesFilename" : "DarkDimensionLand/river/River.def",
+      "delta" : "DarkDimensionLand/river/River_delta.def"
+	}
+}
+
+   

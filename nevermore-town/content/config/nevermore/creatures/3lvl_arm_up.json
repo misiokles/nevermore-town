@@ -39,8 +39,8 @@
 			"graphics": {
 				"animation": "nevermore/creatures/battle/3lvl_arm_up.def",
 				"map": "nevermore/creatures/adventure/3lvl_arm_up_map.def",
-				"iconSmall": "nevermore/creatures/icon/3lvl_arm_up_s.bmp",
-				"iconLarge": "nevermore/creatures/portrait/3lvl_arm_up.bmp",
+				"iconSmall": "nevermore/creatures/icon/3lvl_arm_up_s.png",
+				"iconLarge": "nevermore/creatures/portrait/3lvl_arm_up.png",
 				"timeBetweenFidgets": 1.00,
 				"animationTime": {
 					"walk": 1,

@@ -20,15 +20,15 @@
 		"female": false,
 		"class": "nn_madman",
 		"images": {
-			"large": "nevermore/heroes/Poison/Poison.bmp",
-			"small": "nevermore/heroes/Poison/Poison_s.bmp",
-			"specialtyLarge": "nevermore/heroes/Poison/Poison_a.bmp",
-			"specialtySmall": "nevermore/heroes/Poison/Poison_as.bmp"
+			"large": "nevermore/heroes/Poison/Poison.png",
+			"small": "nevermore/heroes/Poison/Poison_s.png",
+			"specialtyLarge": "nevermore/heroes/Poison/Poison_a.png",
+			"specialtySmall": "nevermore/heroes/Poison/Poison_as.png"
 		},
 		"skills": [
 			{
 				"level": "basic",
-				"skill": "wisdom"
+				"skill": "offence"
 			},
 			{
 				"level": "basic",
@@ -42,7 +42,7 @@
 			"biography": "Poison has never been a good commander. However, his advantage over the enemy is the ability to be in several places at once. Brute force is useless against him - after a blow, he only falls apart in two, and each of them acts separately.",
 			"name": "Poison",
 			"specialty": {
-				"description" : "Increases the Attack and Defense skills of any Horrors and Terrors she commands for each level attainded after 4th level.",
+				"description" : "{Horrors and Terrors}\r\n\r\nIncreases the Attack and Defense skills of any Horrors and Terrors she commands for each level attainded after 4th level.",
 				"tooltip" : "Creature bonus: Horrors",
 				"name" : "Horrors"
 			}

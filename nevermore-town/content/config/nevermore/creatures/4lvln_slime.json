@@ -30,8 +30,8 @@
 			"animation" : "nevermore/creatures/battle/4lvln_slime.def",
 			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"map" : "nevermore/creatures/adventure/4lvln_slime_map.def",
-			"iconSmall" : "nevermore/creatures/icon/4lvln_slime_s.bmp",
-			"iconLarge" : "nevermore/creatures/portrait/4lvln_slime.bmp",
+			"iconSmall" : "nevermore/creatures/icon/4lvln_slime_s.png",
+			"iconLarge" : "nevermore/creatures/portrait/4lvln_slime.png",
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 5,

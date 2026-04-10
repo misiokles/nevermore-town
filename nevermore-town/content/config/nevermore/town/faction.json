@@ -3,7 +3,7 @@
 		"name": "Nevermore",
 		"alignment": "evil",
 		"boat" : "boatFortress",
-		"nativeTerrain": "dirt",
+		"nativeTerrain": "darkdimensionLand",
 		"creatureBackground": {
 			"120px": "nevermore/creaturebg120px",
 			"130px": "nevermore/creaturebg130px"
@@ -88,11 +88,11 @@
 				],
 				[
 					"n_5lvl_horror",
-					"n_5lvl_horror_up"
+					"n_5lvl_horror_up",
+					"n_5lvla_martyr",
+					"n_5lvla_martyr_up"
 				],
 				[
-					"n_6lvl_empat",
-					"n_6lvl_empat_up",
 					"n_6lvl_empat",
 					"n_6lvl_empat_up"
 				],
@@ -115,7 +115,7 @@
 				"Morgad",
 				"Ensara"
 			],
-			"hallBackground": "TPTHBKCS.BMP",
+			"hallBackground": "nevermore/town/hall",
 			"hallSlots": [
 				[
 					[
@@ -156,8 +156,7 @@
 						"special2"
 					],
 					[
-						"horde2",
-						"horde2Upgr"
+						"horde6"
 					]
 				],
 				[
@@ -184,6 +183,10 @@
 						"dwellingUpLvl5"
 					],
 					[
+						"dwellingLvl5B",
+						"dwellingUpLvl5B"
+					],
+					[
 						"dwellingLvl6",
 						"dwellingUpLvl6"
 					],
@@ -201,22 +204,22 @@
 			"icons": {
 				"fort": {
 					"built": {
-						"large": "nevermore/icons/fortbuildedlarge.bmp",
-						"small": "nevermore/icons/fortbuildedsmall.bmp"
+						"large": "nevermore/icons/fortbuildedlarge.png",
+						"small": "nevermore/icons/fortbuildedsmall.png"
 					},
 					"normal": {
-						"large": "nevermore/icons/fortlarge.bmp",
-						"small": "nevermore/icons/fortsmall.bmp"
+						"large": "nevermore/icons/fortlarge.png",
+						"small": "nevermore/icons/fortsmall.png"
 					}
 				},
 				"village": {
 					"built": {
-						"large": "nevermore/icons/hallbuildedlarge.bmp",
-						"small": "nevermore/icons/hallbuildedsmall.bmp"
+						"large": "nevermore/icons/hallbuildedlarge.png",
+						"small": "nevermore/icons/hallbuildedsmall.png"
 					},
 					"normal": {
-						"large": "nevermore/icons/halllarge.bmp",
-						"small": "nevermore/icons/hallsmall.bmp"
+						"large": "nevermore/icons/halllarge.png",
+						"small": "nevermore/icons/hallsmall.png"
 					}
 				}
 			},
@@ -244,7 +247,7 @@
 			},
 			"tavernVideo": "TAVERN.BIK",
 			"townBackground": "nevermore/town/background",
-			"guildBackground" : "TPMAGE.bmp"
+			"guildBackground" : "TPMAGE.png"
 		}
 	}
 }

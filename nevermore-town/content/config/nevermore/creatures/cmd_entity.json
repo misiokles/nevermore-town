@@ -74,8 +74,8 @@
 			"hasDoubleWeek": true,
 			"graphics": {
 				"animation": "nevermore/creatures/battle/cmd_entity.def",
-				"iconSmall": "nevermore/creatures/icon/cmd_entity_s.bmp",
-				"iconLarge": "nevermore/creatures/portrait/cmd_entity.bmp",
+				"iconSmall": "nevermore/creatures/icon/cmd_entity_s.png",
+				"iconLarge": "nevermore/creatures/portrait/cmd_entity.png",
 				"timeBetweenFidgets": 1.00,
 				"animationTime": {
 					"walk": 1,

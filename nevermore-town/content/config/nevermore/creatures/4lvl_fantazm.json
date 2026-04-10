@@ -41,8 +41,8 @@
 		"graphics": {
 			"animation": "nevermore/creatures/battle/4lvl_fantazm.def",
 			"map": "nevermore/creatures/adventure/4lvl_fantazm_map.def",
-			"iconSmall": "nevermore/creatures/icon/4lvl_fantazm_s.bmp",
-			"iconLarge": "nevermore/creatures/portrait/4lvl_fantazm.bmp",
+			"iconSmall": "nevermore/creatures/icon/4lvl_fantazm_s.png",
+			"iconLarge": "nevermore/creatures/portrait/4lvl_fantazm.png",
 			"timeBetweenFidgets": 1.00,
 			"animationTime": {
 				"walk": 1,

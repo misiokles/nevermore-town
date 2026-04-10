@@ -1,0 +1,31 @@
+{
+	"core:rock" : {
+		"types" : {
+			"darkDimensionStone" : {
+				"name" : "Stone",
+				"templates" : {
+					"darkDimensionStone01" : {
+						"animation" : "DarkDimensionLand/decorations/stone/BStones",
+						"mask" : [ "VBB", "VBB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionStone02" : {
+						"animation" : "DarkDimensionLand/decorations/stone/ManyStones",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionStone03" : {
+						"animation" : "DarkDimensionLand/decorations/stone/Stone1",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"darkDimensionStone04" : {
+						"animation" : "DarkDimensionLand/decorations/stone/Stone2",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					}
+				}
+			}
+		}
+	}
+}

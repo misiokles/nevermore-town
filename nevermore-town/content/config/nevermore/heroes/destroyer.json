@@ -20,15 +20,19 @@
 		"female": false,
 		"class": "nn_madman",
 		"images": {
-			"large": "nevermore/heroes/Destroyer/Destroyer.bmp",
-			"small": "nevermore/heroes/Destroyer/Destroyer_s.bmp",
-			"specialtyLarge": "nevermore/heroes/Destroyer/Destroyer_a.bmp",
-			"specialtySmall": "nevermore/heroes/Destroyer/Destroyer_as.bmp"
+			"large": "nevermore/heroes/Destroyer/Destroyer.png",
+			"small": "nevermore/heroes/Destroyer/Destroyer_s.png",
+			"specialtyLarge": "nevermore/heroes/Destroyer/Destroyer_a.png",
+			"specialtySmall": "nevermore/heroes/Destroyer/Destroyer_as.png"
 		},
 		"skills": [
 			{
 				"level": "basic",
-				"skill": "leadership"
+				"skill": "offence"
+			},
+			{
+				"level": "basic",
+				"skill": "pathfinding"
 			}
 		],
 		"specialty" : {
@@ -38,7 +42,7 @@
 			"biography": "With the beginning of the rifts and the merging of the dark dimension with the mortal world, not only soulless nightmares feeding on emotions poured into the realm of life, but also real destroyers of all life in their path. This phantasm will make Antagarich burn more than once.",
 			"name": "Destroyer",
 			"specialty": {
-				"description" : "Increases the Attack and Defense skills of any Fire Phantoms and Phantasms she commands for each level attainded after 3th level.",
+				"description" : "{Fire Phantom and Phantasm}\r\n\r\nIncreases the Attack and Defense skills of any Fire Phantoms and Phantasms she commands for each level attainded after 3th level.",
 				"tooltip" : "Creature bonus: Fire Phantom",
 				"name" : "Fire Phantom"
 			}

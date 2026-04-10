@@ -1,0 +1,16 @@
+{
+	"core:sign" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"darkDimension_sign" : {
+						"animation" : "DarkDimensionLand/objects/sign/DDSign",
+						"allowedTerrains": [ "darkdimensionLand" ],
+						"mask" : [ "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

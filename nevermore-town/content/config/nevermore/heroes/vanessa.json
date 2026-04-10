@@ -23,15 +23,15 @@
 			"cure"
 		],
 		"images": {
-			"large": "nevermore/heroes/Vanessa/Vanessa.bmp",
-			"small": "nevermore/heroes/Vanessa/Vanessa_s.bmp",
-			"specialtyLarge": "nevermore/heroes/Vanessa/Vanessa_a.bmp",
-			"specialtySmall": "nevermore/heroes/Vanessa/Vanessa_as.bmp"
+			"large": "nevermore/heroes/Vanessa/Vanessa.png",
+			"small": "nevermore/heroes/Vanessa/Vanessa_s.png",
+			"specialtyLarge": "nevermore/heroes/Vanessa/Vanessa_a.png",
+			"specialtySmall": "nevermore/heroes/Vanessa/Vanessa_as.png"
 		},
 		"skills": [
 			{
 				"level": "basic",
-				"skill": "offence"
+				"skill": "mysticism"
 			},
 			{
 				"level": "basic",
@@ -45,7 +45,7 @@
 			"biography": "Vanessa was a wandering minstrel. She set out on her travels because she felt that only such a way of life would give her freedom, since a settled life in the cities was boring and monotonous for her. One day, when she was walking through the forest, she was hit on the back of the head with a stone and robbed. Foresters found her and carried her to the nearest village. Vanessa was unconscious for several weeks, and when she came to, her views on freedom had changed somewhat.",
 			"name": "Vanessa",
 			"specialty": {
-				"description" : "Increases Speed of any Empaths and Psycho-empaths by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
+				"description" : "{Empaths and Psycho-empaths}\r\n\r\nIncreases Speed of any Empaths and Psycho-empaths by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"tooltip" : "Creature bonus: Empaths",
 				"name" : "Empaths"
 			}

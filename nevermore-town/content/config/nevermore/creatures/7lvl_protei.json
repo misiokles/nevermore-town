@@ -32,11 +32,6 @@
 		},
 		"doubleWide": false,
 		"abilities": {
-			"drainsLife" :
-			{
-				"type" : "LIFE_DRAIN",
-				"val" : 100
-			},
 			"teleports" :
 			{
 				"type" : "FLYING",
@@ -55,8 +50,8 @@
 		"graphics": {
 			"animation": "nevermore/creatures/battle/7lvl_protei.def",
 			"map": "nevermore/creatures/adventure/7lvl_protei_map.def",
-			"iconSmall": "nevermore/creatures/icon/7lvl_protei_s.bmp",
-			"iconLarge": "nevermore/creatures/portrait/7lvl_protei.bmp",
+			"iconSmall": "nevermore/creatures/icon/7lvl_protei_s.png",
+			"iconLarge": "nevermore/creatures/portrait/7lvl_protei.png",
 			"timeBetweenFidgets": 1.00,
 			"animationTime": {
 				"walk": 1,

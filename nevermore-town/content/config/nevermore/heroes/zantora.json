@@ -5,10 +5,10 @@
 		"female": true,
 		"images" :
 		{
-			"specialtySmall" : "nevermore/heroes/Zantora/Zantora_as.bmp",
-			"specialtyLarge" : "nevermore/heroes/Zantora/Zantora_a.bmp",
-			"large" : "nevermore/heroes/Zantora/Zantora.bmp",
-			"small" : "nevermore/heroes/Zantora/Zantora_s.bmp"
+			"specialtySmall" : "nevermore/heroes/Zantora/Zantora_as.png",
+			"specialtyLarge" : "nevermore/heroes/Zantora/Zantora_a.png",
+			"large" : "nevermore/heroes/Zantora/Zantora.png",
+			"small" : "nevermore/heroes/Zantora/Zantora_s.png"
 		},
 		"army" : [
 			{
@@ -42,7 +42,15 @@
 			}
 		],
 		"specialty" : {
-			"secondary" : "mysticism"
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
 		},
 		
 		"texts" : {

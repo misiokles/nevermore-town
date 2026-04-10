@@ -59,8 +59,8 @@
 		"graphics": {
 			"animation": "nevermore/creatures/battle/7lvl_protei_up.def",
 			"map": "nevermore/creatures/adventure/7lvl_protei_up_map.def",
-			"iconSmall": "nevermore/creatures/icon/7lvl_protei_up_s.bmp",
-			"iconLarge": "nevermore/creatures/portrait/7lvl_protei_up.bmp",
+			"iconSmall": "nevermore/creatures/icon/7lvl_protei_up_s.png",
+			"iconLarge": "nevermore/creatures/portrait/7lvl_protei_up.png",
 			"timeBetweenFidgets": 1.00,
 			"animationTime": {
 				"walk": 1,

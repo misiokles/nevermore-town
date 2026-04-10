@@ -5,10 +5,10 @@
 		"female" : false,
 		"images" :
 		{
-			"specialtySmall" : "nevermore/heroes/Absorber/Absorber_as.bmp",
-			"specialtyLarge" : "nevermore/heroes/Absorber/Absorber_a.bmp",
-			"large" : "nevermore/heroes/Absorber/Absorber.bmp",
-			"small" : "nevermore/heroes/Absorber/Absorber_s.bmp"
+			"specialtySmall" : "nevermore/heroes/Absorber/Absorber_as.png",
+			"specialtyLarge" : "nevermore/heroes/Absorber/Absorber_a.png",
+			"large" : "nevermore/heroes/Absorber/Absorber.png",
+			"small" : "nevermore/heroes/Absorber/Absorber_s.png"
 		},
 
 		"army" :
@@ -21,7 +21,7 @@
 		[
 			{
 				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "offence"
 			},
 			{
 				"level" : "basic",

@@ -1,0 +1,16 @@
+{
+	"core:treeOfKnowledge" : {
+		"types" : {
+			"treeOfKnowledge" : {
+				"templates" : {
+					"darkDimension_treeOfKnowledge" : {
+						"animation" : "DarkDimensionLand/objects/treeOfKnowledge/Oak",
+						"visitableFrom" : ["---", "-+-", "+++"],
+						"mask" : ["VVV", "VVV", "VAB"],
+						"allowedTerrains" : ["darkdimensionLand"]
+					}
+				}
+			}
+		}
+	}
+}

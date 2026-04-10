@@ -46,8 +46,8 @@
 		"graphics": {
 			"animation": "nevermore/creatures/battle/1lvl_harlequin_up.def",
 			"map": "nevermore/creatures/adventure/1lvl_harlequin_up_map.def",
-			"iconSmall": "nevermore/creatures/icon/1lvl_harlequin_up_s.bmp",
-			"iconLarge": "nevermore/creatures/portrait/1lvl_harlequin_up.bmp",
+			"iconSmall": "nevermore/creatures/icon/1lvl_harlequin_up_s.png",
+			"iconLarge": "nevermore/creatures/portrait/1lvl_harlequin_up.png",
 			"timeBetweenFidgets": 1.00,
 			"animationTime": {
 				"walk": 1,
@@ -75,7 +75,7 @@
 			}
 		},
 		"sound": {
-			"attack": "nevermore/LVL1ATTK.wav",
+			"attack": "nevermore/Explosion.wav",
 			"defend": "nevermore/LVL1DFND.wav",
 			"killed": "nevermore/LVL1KILL.wav",
 			"move": "nevermore/LVL1MOVE.wav",

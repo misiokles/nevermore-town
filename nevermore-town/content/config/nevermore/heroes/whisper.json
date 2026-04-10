@@ -5,10 +5,10 @@
 		"female" : false,
 		"images" :
 		{
-			"specialtySmall" : "nevermore/heroes/Whisper/Whisper_as.bmp",
-			"specialtyLarge" : "nevermore/heroes/Whisper/Whisper_a.bmp",
-			"large" : "nevermore/heroes/Whisper/Whisper.bmp",
-			"small" : "nevermore/heroes/Whisper/Whisper_s.bmp"
+			"specialtySmall" : "nevermore/heroes/Whisper/Whisper_as.png",
+			"specialtyLarge" : "nevermore/heroes/Whisper/Whisper_a.png",
+			"large" : "nevermore/heroes/Whisper/Whisper.png",
+			"small" : "nevermore/heroes/Whisper/Whisper_s.png"
 		},
 
 		"army" :
@@ -45,7 +45,16 @@
 			"stoneSkin"		
         ],
 		"specialty" : {
-			"secondary" : "offence"
+			"bonuses" : {
+				"offence" : {
+					"subtype" : "damageTypeMelee",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
 		}
 	}
 }

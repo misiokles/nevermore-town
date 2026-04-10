@@ -21,15 +21,15 @@
 		"female" : false,
 		"spellbook": [ "fortune" ],
 		"images": {
-			"large": "nevermore/heroes/Fortune/Fortune.bmp",
-			"small": "nevermore/heroes/Fortune/Fortune_s.bmp",
-			"specialtyLarge": "nevermore/heroes/Fortune/Fortune_a.bmp",
-			"specialtySmall": "nevermore/heroes/Fortune/Fortune_as.bmp"
+			"large": "nevermore/heroes/Fortune/Fortune.png",
+			"small": "nevermore/heroes/Fortune/Fortune_s.png",
+			"specialtyLarge": "nevermore/heroes/Fortune/Fortune_a.png",
+			"specialtySmall": "nevermore/heroes/Fortune/Fortune_as.png"
 		},
 		"skills":
 		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "luck", "level": "basic" }
+			{ "skill" : "offence", "level": "basic" },
+			{ "skill" : "luck", "level": "advanced" }
 		],
 		"specialty" : {
 			"bonuses" : {
@@ -44,7 +44,7 @@
 			"biography": "This horror existed on Enroth even before the first rifts appeared. Fortune likes to play with her victims - She takes away the last hopes of some, others are incredibly lucky, but only so that in the end they too lose everything, including their sanity.",
 			"name": "Fortune",
 			"specialty": {
-				"description" : "Casts Fortune always at expert effect.",
+				"description" : "{Fortune}\r\n\r\Casts Fortune always at expert effect.",
 				"tooltip" : "Spell Bonus: Fortune",
 				"name" : "Fortune"
 			}

@@ -50,8 +50,8 @@
 		"graphics": {
 			"animation": "nevermore/creatures/battle/6lvl_empat_up.def",
 			"map": "nevermore/creatures/adventure/6lvl_empat_up_map.def",
-			"iconSmall": "nevermore/creatures/icon/6lvl_empat_up_s.bmp",
-			"iconLarge": "nevermore/creatures/portrait/6lvl_empat_up.bmp",
+			"iconSmall": "nevermore/creatures/icon/6lvl_empat_up_s.png",
+			"iconLarge": "nevermore/creatures/portrait/6lvl_empat_up.png",
 			"timeBetweenFidgets": 1.00,
 			"animationTime": {
 				"walk": 1.1,

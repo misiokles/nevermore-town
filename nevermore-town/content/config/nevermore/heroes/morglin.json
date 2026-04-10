@@ -5,10 +5,10 @@
 		"female" : false,
 		"images" :
 		{
-			"specialtySmall" : "nevermore/heroes/Morglin/Morglin_as.bmp",
-			"specialtyLarge" : "nevermore/heroes/Morglin/Morglin_a.bmp",
-			"large" : "nevermore/heroes/Morglin/Morglin.bmp",
-			"small" : "nevermore/heroes/Morglin/Morglin_s.bmp"
+			"specialtySmall" : "nevermore/heroes/Morglin/Morglin_as.png",
+			"specialtyLarge" : "nevermore/heroes/Morglin/Morglin_a.png",
+			"large" : "nevermore/heroes/Morglin/Morglin.png",
+			"small" : "nevermore/heroes/Morglin/Morglin_s.png"
 		},
 
 		"army" :
@@ -22,7 +22,7 @@
 		[
 			{
 				"level" : "basic",
-				"skill" : "armorer"
+				"skill" : "mysticism"
 			},
 			{
 				"level" : "basic",
@@ -41,7 +41,15 @@
 			}
 		},
 		"specialty" : {
-			"secondary" : "resistance"
+			"bonuses" : {
+				"resistance" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MAGIC_RESISTANCE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
 		}
 	}
 }

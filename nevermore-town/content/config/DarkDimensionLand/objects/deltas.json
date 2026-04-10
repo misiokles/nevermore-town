@@ -1,0 +1,26 @@
+{
+	"core:riverDelta" : {
+		"types" : {
+			"object" : {
+				"templates" : {					
+					"darkdimensionDelt1" : {
+						"animation" : "DarkDimensionLand/river/River_delta.def",
+						"mask" : ["VVV","VVV","VVV"]
+					},
+					"darkdimensionDelt2" : {
+						"animation" : "DarkDimensionLand/river/River_delta_01.def",
+						"mask" : ["VVV","VVV","VVV"]
+					},
+					"darkdimensionDelt3" : {
+						"animation" : "DarkDimensionLand/river/River_delta_02.def",
+						"mask" : ["VVV","VVV","VVV"]
+					},
+					"darkdimensionDelt4" : {
+						"animation" : "DarkDimensionLand/river/River_delta_03.def",
+						"mask" : ["VVV","VVV","VVV"]
+					}
+				}
+			}
+		}
+	}
+}

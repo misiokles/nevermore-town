@@ -39,7 +39,7 @@
 				"templates": {
 					"default": {
 						"animation": "nevermore/map/lvl3",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [ "VVV", "VVV", "BAB" ]
 					}
 				}
 			},
@@ -53,7 +53,7 @@
 				"templates": {
 					"default": {
 						"animation": "nevermore/map/lvl4",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+						"mask" : [ "VVV", "VBV", "BAB" ]
 					}
 				}
 			},
@@ -71,6 +71,20 @@
 					}
 				}
 			},
+			"nevermore_creature_lvl5a_dwelling": {
+				"name": "Cage of Suffering",
+				"creatures": [
+					[
+						"n_5lvla_martyr"
+					]
+				],
+				"templates": {
+					"default": {
+						"animation": "nevermore/map/lvl5a",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
 			"nevermore_creature_lvl6_dwelling": {
 				"name": "Psycho Tower",
 				"creatures": [
@@ -81,7 +95,7 @@
 				"templates": {
 					"default": {
 						"animation": "nevermore/map/lvl6",
-						"mask" : [ "VVV", "VBV", "VAV" ]
+						"mask" : [ "VVV", "VVV", "VBB", "VAB" ]
 					}
 				}
 			},
@@ -95,6 +109,20 @@
 				"templates": {
 					"default": {
 						"animation": "nevermore/map/lvl7",
+						"mask" : [ "VVV", "VBB", "BAB" ]
+					}
+				}
+			},
+			"nevermore_creature_slime_dwelling": {
+				"name": "Slug Den",
+				"creatures": [
+					[
+						"n_4lvln_slime"
+					]
+				],
+				"templates": {
+					"default": {
+						"animation": "nevermore/map/dwlslime",
 						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}

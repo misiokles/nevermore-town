@@ -1,0 +1,34 @@
+{
+	"ddmonsters" : {
+		"handler" : "static",
+		"name" : "Monster of the Dark Dimension",
+		"types" : {
+			"ddmonsters" : {
+				"templates" : {
+					"ddmonsters1" : {
+						"animation" : "DarkDimensionLand/decorations/monsters/BigWorm",
+						"mask" : [ "VVVVV","VVVBV","VBBBB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"ddmonsters2" : {
+						"animation" : "DarkDimensionLand/decorations/monsters/SmallWorm",
+						"mask" : [ "VVV","VBB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"ddmonsters3" : {
+						"animation" : "DarkDimensionLand/decorations/monsters/Growth",
+						"mask" : [ "VB","VB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					},
+					"ddmonsters4" : {
+						"animation" : "DarkDimensionLand/decorations/monsters/Devourer",
+						"mask" : [ "VB","BB" ],
+						"allowedTerrains": [ "darkdimensionLand" ]
+					}
+				}
+			}
+		}	
+	}	
+}
+	
+	

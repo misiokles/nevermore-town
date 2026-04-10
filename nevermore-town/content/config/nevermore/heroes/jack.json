@@ -9,17 +9,17 @@
 			"biography" : "Jack is unpredictability itself. One minute he is cheerful and good-natured. The next he is wrapping your intestines around your neck or sawing off your head with a blunt knife... although, most of all he loves to tickle to death. Jack is an inspiration for many harlequins, because he is the only one who was able to dance for 25 hours on the grave of King Gryphonheart... and would have continued dancing, if the guard had not woken up...",
 			"specialty" : 
 			{
-				"description" : "Casts Sorrow spell with expert effects but not expert range.",
+				"description" : "{Sorrow}\r\n\r\nCasts Sorrow spell with expert effects but not expert range.",
 				"tooltip" : "Spell Bonus: Sorrow",
 				"name" : "Sorrow"
 			}
 		},
 		"images" :
 		{
-			"specialtySmall" : "nevermore/heroes/Jack/Jack_as.bmp",
-			"specialtyLarge" : "nevermore/heroes/Jack/Jack_a.bmp",
-			"large" : "nevermore/heroes/Jack/Jack.bmp",
-			"small" : "nevermore/heroes/Jack/Jack_s.bmp"
+			"specialtySmall" : "nevermore/heroes/Jack/Jack_as.png",
+			"specialtyLarge" : "nevermore/heroes/Jack/Jack_a.png",
+			"large" : "nevermore/heroes/Jack/Jack.png",
+			"small" : "nevermore/heroes/Jack/Jack_s.png"
 		},
 
 		"spellbook" :
@@ -36,11 +36,11 @@
 		[
 			{
 				"level" : "basic",
-				"skill" : "learning"
+				"skill" : "offence"
 			},
 			{
 				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "leadership"
 			}
 		],
 		"specialty" : {

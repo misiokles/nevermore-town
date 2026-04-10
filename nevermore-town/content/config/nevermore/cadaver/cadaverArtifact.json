@@ -14,9 +14,9 @@
 		},
 		"graphics":
 		{
-			"image": "nevermore/cadaver/Cadaver_icon.bmp",
-			"scenarioBonus" : "nevermore/cadaver/CadaverLarge.bmp",
-			"map": "nevermore/cadaver/cadaver_art.def"	
+			"image": "nevermore/cadaver/Cadaver_icon.png",
+			"large" : "nevermore/cadaver/CadaverLarge.png",
+			"map": "nevermore/сadaver/cadaverA.def"
 		}
 	}
 }

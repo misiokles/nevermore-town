@@ -47,8 +47,8 @@
 		"graphics": {
 			"animation": "nevermore/creatures/battle/2lvl_screamer.def",
 			"map": "nevermore/creatures/adventure/2lvl_screamer_map.def",
-			"iconSmall": "nevermore/creatures/icon/2lvl_screamer_s.bmp",
-			"iconLarge": "nevermore/creatures/portrait/2lvl_screamer.bmp",
+			"iconSmall": "nevermore/creatures/icon/2lvl_screamer_s.png",
+			"iconLarge": "nevermore/creatures/portrait/2lvl_screamer.png",
 			"timeBetweenFidgets": 1.00,
 			"animationTime": {
 				"walk": 1,
