@@ -5,9 +5,17 @@
 				"templates" : {
 					"darkDimension_sign" : {
 						"animation" : "DarkDimensionLand/objects/sign/DDSign",
-						"allowedTerrains": [ "darkdimensionLand" ],
-						"mask" : [ "A" ],
-						"visitableFrom" : [ "---", "+++", "+++" ]
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						],
+						"mask" : [
+							"A"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
 					}
 				}
 			}

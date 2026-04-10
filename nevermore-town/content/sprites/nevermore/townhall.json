@@ -1,8 +1,13 @@
 {
-    "basepath" : "nevermore/townhall/",
-	"images" :
-	[
-		{ "frame" : 48, "file" : "lvl5a"},
-		{ "frame" : 55, "file" : "lvl5aup"}
+	"basepath" : "nevermore/townhall/",
+	"images" : [
+		{
+			"frame" : 48,
+			"file" : "lvl5a"
+		},
+		{
+			"frame" : 55,
+			"file" : "lvl5aup"
+		}
 	]
 }

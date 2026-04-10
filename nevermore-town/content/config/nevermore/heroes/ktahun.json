@@ -1,46 +1,46 @@
 {
-	"nn_ktahun": {
-		"army": [
+	"nn_ktahun" : {
+		"army" : [
 			{
-				"creature": "n_1lvl_arlequin",
-				"max": 25,
-				"min": 15
+				"creature" : "n_1lvl_arlequin",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "n_3lvl_arm",
-				"max": 6,
-				"min": 4
+				"creature" : "n_3lvl_arm",
+				"max" : 6,
+				"min" : 4
 			},
 			{
-				"creature": "n_3lvl_arm",
+				"creature" : "n_3lvl_arm",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"class": "nn_madman",
-		"images": {
-			"large": "nevermore/heroes/KTahun/KTahun.png",
-			"small": "nevermore/heroes/KTahun/KTahun_s.png",
-			"specialtyLarge": "nevermore/heroes/KTahun/KTahun_a.png",
-			"specialtySmall": "nevermore/heroes/KTahun/KTahun_as.png"
+		"class" : "nn_madman",
+		"images" : {
+			"large" : "nevermore/heroes/KTahun/KTahun.png",
+			"small" : "nevermore/heroes/KTahun/KTahun_s.png",
+			"specialtyLarge" : "nevermore/heroes/KTahun/KTahun_a.png",
+			"specialtySmall" : "nevermore/heroes/KTahun/KTahun_as.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "offence"
+				"level" : "basic",
+				"skill" : "offence"
 			},
 			{
-				"level": "basic",
-				"skill": "tactics"
+				"level" : "basic",
+				"skill" : "tactics"
 			}
 		],
 		"specialty" : {
 			"creature" : "n_7lvl_protei"
 		},
-		"texts": {
-			"biography": "Protei are among the most dangerous inhabitants of the dark dimension. Their power is truly incredible, they have reached the highest point of evolution of their world, forcing every horror to bow before them. But few of these creatures can boast of the power of K'tahun.",
-			"name": "K'Tahun",
-			"specialty": {
+		"texts" : {
+			"biography" : "Protei are among the most dangerous inhabitants of the dark dimension. Their power is truly incredible, they have reached the highest point of evolution of their world, forcing every horror to bow before them. But few of these creatures can boast of the power of K'tahun.",
+			"name" : "K'Tahun",
+			"specialty" : {
 				"description" : "{Proteas and Dark proteas}\r\n\r\nIncreases the Attack and Defense skills of any Proteas and Dark proteas she commands for each level attainded after 5th level.",
 				"tooltip" : "Creature bonus: Proteas",
 				"name" : "Proteas"

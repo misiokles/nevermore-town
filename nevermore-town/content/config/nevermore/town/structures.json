@@ -1,4 +1,4 @@
-{ 
+{
 	"nevermore" : {
 		"town" : {
 			"structures" : {
@@ -63,7 +63,7 @@
 					"x" : 0,
 					"y" : 119,
 					"z" : 0
-				},				
+				},
 				"castle" : {
 					"animation" : "nevermore/buildings/castle",
 					"area" : "nevermore/town/area/castle_a",
@@ -103,7 +103,7 @@
 					"x" : 591,
 					"y" : 138,
 					"z" : 1
-				},				
+				},
 				"blacksmith" : {
 					"animation" : "nevermore/buildings/blacksmith",
 					"area" : "nevermore/town/area/blacksmith_a",
@@ -135,7 +135,7 @@
 					"x" : 183,
 					"y" : 245,
 					"z" : 0
-				},			
+				},
 				"dwellingUpLvl1" : {
 					"animation" : "nevermore/buildings/lvl1up",
 					"area" : "nevermore/town/area/lvl1up_a",
@@ -256,7 +256,7 @@
 					"x" : 297,
 					"y" : 204,
 					"z" : 0
-				},	
+				},
 				"dwellingUpLvl7" : {
 					"animation" : "nevermore/buildings/lvl7up",
 					"area" : "nevermore/town/area/lvl7up_a",
@@ -271,16 +271,16 @@
 					"border" : "nevermore/town/border/spec1_b",
 					"x" : 612,
 					"y" : 64,
-					"z" : 0,
-				},		
+					"z" : 0
+				},
 				"special2" : {
 					"animation" : "nevermore/buildings/spec2",
 					"area" : "nevermore/town/area/spec2_a",
 					"border" : "nevermore/town/border/spec2_b",
 					"x" : 212,
 					"y" : 172,
-					"z" : 0,
-				},	
+					"z" : 0
+				},
 				"grail" : {
 					"animation" : "nevermore/buildings/grail",
 					"area" : "nevermore/town/area/grail_a",

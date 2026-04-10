@@ -1,51 +1,75 @@
 {
-	"dd_fog2":
-	{
-		"allowedTerrains" : ["darkdimensionLand"],
+	"dd_fog2" : {
+		"allowedTerrains" : [
+			"darkdimensionLand"
+		],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 1,
-		"blockedTiles" :  [0, 1],
+		"blockedTiles" : [
+			0,
+			1
+		],
 		"animation" : "DarkDimensionLand/battlefields/Mouth.def",
 		"absolute" : false
 	},
-	"dd_fog3":
-	{
-		"allowedTerrains" : ["darkdimensionLand"],
+	"dd_fog3" : {
+		"allowedTerrains" : [
+			"darkdimensionLand"
+		],
 		"specialBattlefields" : [],
 		"width" : 5,
 		"height" : 3,
-		"blockedTiles" :  [0, 1, 2, 3, -13, -12],
+		"blockedTiles" : [
+			0,
+			1,
+			2,
+			3,
+			-13,
+			-12
+		],
 		"animation" : "DarkDimensionLand/battlefields/Rocks.def",
 		"absolute" : false
 	},
-	"dd_fog4":
-	{
-		"allowedTerrains" : ["darkdimensionLand"],
+	"dd_fog4" : {
+		"allowedTerrains" : [
+			"darkdimensionLand"
+		],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 2,
-		"blockedTiles" :  [1],
+		"blockedTiles" : [
+			1
+		],
 		"animation" : "DarkDimensionLand/battlefields/Tentacle.def",
 		"absolute" : false
 	},
-	"dd_fog5":
-	{
-		"allowedTerrains" : ["darkdimensionLand"],
+	"dd_fog5" : {
+		"allowedTerrains" : [
+			"darkdimensionLand"
+		],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 2,
-		"blockedTiles" :  [0, 1],
+		"blockedTiles" : [
+			0,
+			1
+		],
 		"animation" : "DarkDimensionLand/battlefields/Eye.def",
 		"absolute" : false
 	},
-	"dd_fog6":
-	{
-		"allowedTerrains" : ["darkdimensionLand"],
+	"dd_fog6" : {
+		"allowedTerrains" : [
+			"darkdimensionLand"
+		],
 		"specialBattlefields" : [],
 		"width" : 3,
 		"height" : 2,
-		"blockedTiles" :  [1, 2, -16],
+		"blockedTiles" : [
+			1,
+			2,
+			-16
+		],
 		"animation" : "DarkDimensionLand/battlefields/Stone.def",
 		"absolute" : false
 	}

@@ -1,42 +1,38 @@
 {
-    "name": "DarkDimensionLand",
-    "description": "Dark Dimension Land",
-    "version": "0.0.2",
-    "author": "Vovan16.98",
-    "contact": "none",
-    "modType": "Objects",
-	"compatibility" :
-	{
+	"name" : "DarkDimensionLand",
+	"description" : "Dark Dimension Land",
+	"version" : "0.0.2",
+	"author" : "Vovan16.98",
+	"contact" : "none",
+	"modType" : "Objects",
+	"compatibility" : {
 		"min" : "1.2.0"
 	},
-	"depends" :
-	[
+	"depends" : [
 		"nevermore-town"
 	],
-	"changelog" :
-	{
-		"0.0.1"  : [ "Initial release" ],
-		"0.0.2"  : [ "Czech translation by George King" ]
+	"changelog" : {
+		"0.0.1" : [
+			"Initial release"
+		],
+		"0.0.2" : [
+			"Czech translation by George King"
+		]
 	},
-	"battlefields":
-	[
+	"battlefields" : [
 		"config/DarkDimensionLand/battlefields/battlefields.json"
 	],
-	"terrains":
-	[
+	"terrains" : [
 		"config/DarkDimensionLand/terrain/terrains.json"
 	],
-	"obstacles":
-	[
+	"obstacles" : [
 		"config/DarkDimensionLand/obstacles/obstacles.json"
 	],
-	"rivers":
-	[
+	"rivers" : [
 		"config/DarkDimensionLand/terrain/rivers.json"
 	],
-	"objects":
-	[
-	    "config/DarkDimensionLand/decorations/fracture.json",
+	"objects" : [
+		"config/DarkDimensionLand/decorations/fracture.json",
 		"config/DarkDimensionLand/decorations/hole.json",
 		"config/DarkDimensionLand/decorations/monsters.json",
 		"config/DarkDimensionLand/decorations/mountains.json",
@@ -47,7 +43,7 @@
 		"config/DarkDimensionLand/objects/abandonedMine.json",
 		"config/DarkDimensionLand/objects/hillFort.json",
 		"config/DarkDimensionLand/objects/mysticalGarden.json",
-	    	"config/DarkDimensionLand/objects/signs.json",
+		"config/DarkDimensionLand/objects/signs.json",
 		"config/DarkDimensionLand/objects/tavern.json",
 		"config/DarkDimensionLand/objects/treeOfKnowledge.json",
 		"config/DarkDimensionLand/special/obelisk.json",

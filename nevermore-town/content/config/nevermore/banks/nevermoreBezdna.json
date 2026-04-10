@@ -1,18 +1,25 @@
 {
-	"core:creatureBank" :
-	{
-		"types" :
-		{
-			"n_nevermoreBezdna" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"n_nevermoreBezdna" : {
 				"name" : "Abyss of horrors",
-				"templates" : 
-				{
-					"base" : { 
-					"animation" : "nevermore/map/nevermoreBezdna", 
-					"visitableFrom" : [ "---", "---", "+++"  ],
-					"mask" : [ "VVVV", "VVVV", "BBBB", "BAAB"],
-					"allowedTerrains" :[ "darkdimensionLand"]
+				"templates" : {
+					"base" : {
+						"animation" : "nevermore/map/nevermoreBezdna",
+						"visitableFrom" : [
+							"---",
+							"---",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"BBBB",
+							"BAAB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				},
 				"blockedVisitable" : false,
@@ -22,60 +29,112 @@
 				"selectMode" : "selectPlayer",
 				"guardsLayout" : "creatureBankWide",
 				"rmg" : {
-					"value"		: 10000,
-					"rarity"	: 100,
+					"value" : 10000,
+					"rarity" : 100,
 					"zoneLimit" : 1
 				},
-				"rewards":
-				[
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 40 },
-						"guards": [
-							{ "amount": 20, "type" : "n_4lvl_fantazm" },
-							{ "amount": 2, "type" : "n_7lvl_protei" },
-							{ "amount": 2, "type" : "n_7lvl_protei" },
-							{ "amount": 2, "type" : "n_7lvl_protei" },
-							{ "amount": 5, "type" : "n_5lvl_horror" }
-						],
-						"resources":
+						"appearChance" : {
+							"min" : 0,
+							"max" : 40
+						},
+						"guards" : [
 							{
-								"gold" : 8000
+								"amount" : 20,
+								"type" : "n_4lvl_fantazm"
+							},
+							{
+								"amount" : 2,
+								"type" : "n_7lvl_protei"
+							},
+							{
+								"amount" : 2,
+								"type" : "n_7lvl_protei"
+							},
+							{
+								"amount" : 2,
+								"type" : "n_7lvl_protei"
+							},
+							{
+								"amount" : 5,
+								"type" : "n_5lvl_horror"
 							}
+						],
+						"resources" : {
+							"gold" : 8000
+						}
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 40, "max" : 80 },
-						"guards": [
-							{ "amount": 30, "type" : "n_4lvl_fantazm_up" },
-							{ "amount": 3, "type" : "n_7lvl_protei" },
-							{ "amount": 2, "type" : "n_7lvl_protei_up" },
-							{ "amount": 3, "type" : "n_7lvl_protei" },
-							{ "amount": 10, "type" : "n_5lvl_horror_up" }
-						],
-						"resources":
+						"appearChance" : {
+							"min" : 40,
+							"max" : 80
+						},
+						"guards" : [
 							{
-								"gold" : 15000
+								"amount" : 30,
+								"type" : "n_4lvl_fantazm_up"
+							},
+							{
+								"amount" : 3,
+								"type" : "n_7lvl_protei"
+							},
+							{
+								"amount" : 2,
+								"type" : "n_7lvl_protei_up"
+							},
+							{
+								"amount" : 3,
+								"type" : "n_7lvl_protei"
+							},
+							{
+								"amount" : 10,
+								"type" : "n_5lvl_horror_up"
 							}
+						],
+						"resources" : {
+							"gold" : 15000
+						}
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 80, "max" : 100 },
-						"guards": [
-							{ "amount": 40, "type" : "n_4lvl_fantazm_up" },
-							{ "amount": 4, "type" : "n_7lvl_protei_up" },
-							{ "amount": 5, "type" : "n_7lvl_protei" },
-							{ "amount": 5, "type" : "n_7lvl_protei" },
-							{ "amount": 4, "type" : "n_7lvl_protei_up" },
-							{ "amount": 20, "type" : "n_5lvl_horror_up" }
-						],
-						"resources":
+						"appearChance" : {
+							"min" : 80,
+							"max" : 100
+						},
+						"guards" : [
 							{
-								"gold" : 30000
+								"amount" : 40,
+								"type" : "n_4lvl_fantazm_up"
+							},
+							{
+								"amount" : 4,
+								"type" : "n_7lvl_protei_up"
+							},
+							{
+								"amount" : 5,
+								"type" : "n_7lvl_protei"
+							},
+							{
+								"amount" : 5,
+								"type" : "n_7lvl_protei"
+							},
+							{
+								"amount" : 4,
+								"type" : "n_7lvl_protei_up"
+							},
+							{
+								"amount" : 20,
+								"type" : "n_5lvl_horror_up"
 							}
+						],
+						"resources" : {
+							"gold" : 30000
+						}
 					}
 				]
-				
 			}
 		}
 	}

@@ -5,8 +5,12 @@
 				"templates" : {
 					"darkDimensionLandHole" : {
 						"animation" : "DarkDimensionLand/decorations/hole/DDHole",
-						"mask" : [ "V" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			}

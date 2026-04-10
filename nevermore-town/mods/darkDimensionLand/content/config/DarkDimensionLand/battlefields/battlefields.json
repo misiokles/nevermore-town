@@ -1,3 +1,5 @@
 {
-	"darkdimensionlandBattlefields": { "graphics" : "DarkDimensionLand/battlefields/DarkDimensionLandBattlefields" }
+	"darkdimensionlandBattlefields" : {
+		"graphics" : "DarkDimensionLand/battlefields/DarkDimensionLandBattlefields"
+	}
 }

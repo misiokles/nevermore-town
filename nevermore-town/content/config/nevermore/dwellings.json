@@ -1,129 +1,166 @@
 {
-	"core:creatureGeneratorCommon": {
-		"types": {
-			"nevermore_creature_lvl1_dwelling": {
-				"name": "Joker Tent",
-				"creatures": [
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"nevermore_creature_lvl1_dwelling" : {
+				"name" : "Joker Tent",
+				"creatures" : [
 					[
 						"n_1lvl_arlequin"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "nevermore/map/lvl1",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+				"templates" : {
+					"default" : {
+						"animation" : "nevermore/map/lvl1",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
-			"nevermore_creature_lvl2_dwelling": {
-				"name": "Cave Scream",
-				"creatures": [
+			"nevermore_creature_lvl2_dwelling" : {
+				"name" : "Cave Scream",
+				"creatures" : [
 					[
 						"n_2lvl_screamer"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "nevermore/map/lvl2",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+				"templates" : {
+					"default" : {
+						"animation" : "nevermore/map/lvl2",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
-			"nevermore_creature_lvl3_dwelling": {
-				"name": "Flesh Tearers' lair",
-				"creatures": [
+			"nevermore_creature_lvl3_dwelling" : {
+				"name" : "Flesh Tearers' lair",
+				"creatures" : [
 					[
 						"n_3lvl_arm"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "nevermore/map/lvl3",
-						"mask" : [ "VVV", "VVV", "BAB" ]
+				"templates" : {
+					"default" : {
+						"animation" : "nevermore/map/lvl3",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"BAB"
+						]
 					}
 				}
 			},
-			"nevermore_creature_lvl4_dwelling": {
-				"name": "Living Rocks",
-				"creatures": [
+			"nevermore_creature_lvl4_dwelling" : {
+				"name" : "Living Rocks",
+				"creatures" : [
 					[
 						"n_4lvl_fantazm"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "nevermore/map/lvl4",
-						"mask" : [ "VVV", "VBV", "BAB" ]
+				"templates" : {
+					"default" : {
+						"animation" : "nevermore/map/lvl4",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"BAB"
+						]
 					}
 				}
 			},
-			"nevermore_creature_lvl5_dwelling": {
-				"name": "Devouring Maw",
-				"creatures": [
+			"nevermore_creature_lvl5_dwelling" : {
+				"name" : "Devouring Maw",
+				"creatures" : [
 					[
 						"n_5lvl_horror"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "nevermore/map/lvl5",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+				"templates" : {
+					"default" : {
+						"animation" : "nevermore/map/lvl5",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
-			"nevermore_creature_lvl5a_dwelling": {
-				"name": "Cage of Suffering",
-				"creatures": [
+			"nevermore_creature_lvl5a_dwelling" : {
+				"name" : "Cage of Suffering",
+				"creatures" : [
 					[
 						"n_5lvla_martyr"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "nevermore/map/lvl5a",
-						"mask" : [ "VVV", "VVV", "VAB" ]
+				"templates" : {
+					"default" : {
+						"animation" : "nevermore/map/lvl5a",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
 					}
 				}
 			},
-			"nevermore_creature_lvl6_dwelling": {
-				"name": "Psycho Tower",
-				"creatures": [
+			"nevermore_creature_lvl6_dwelling" : {
+				"name" : "Psycho Tower",
+				"creatures" : [
 					[
 						"n_6lvl_empat"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "nevermore/map/lvl6",
-						"mask" : [ "VVV", "VVV", "VBB", "VAB" ]
+				"templates" : {
+					"default" : {
+						"animation" : "nevermore/map/lvl6",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			},
-			"nevermore_creature_lvl7_dwelling": {
-				"name": "Portal of the Abyss",
-				"creatures": [
+			"nevermore_creature_lvl7_dwelling" : {
+				"name" : "Portal of the Abyss",
+				"creatures" : [
 					[
 						"n_7lvl_protei"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "nevermore/map/lvl7",
-						"mask" : [ "VVV", "VBB", "BAB" ]
+				"templates" : {
+					"default" : {
+						"animation" : "nevermore/map/lvl7",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			},
-			"nevermore_creature_slime_dwelling": {
-				"name": "Slug Den",
-				"creatures": [
+			"nevermore_creature_slime_dwelling" : {
+				"name" : "Slug Den",
+				"creatures" : [
 					[
 						"n_4lvln_slime"
 					]
 				],
-				"templates": {
-					"default": {
-						"animation": "nevermore/map/dwlslime",
-						"mask" : [ "VVV", "VBB", "VAB" ]
+				"templates" : {
+					"default" : {
+						"animation" : "nevermore/map/dwlslime",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			}

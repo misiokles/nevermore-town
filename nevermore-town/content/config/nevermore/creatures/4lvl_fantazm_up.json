@@ -1,63 +1,61 @@
 {
-	"n_4lvl_fantazm_up": {
-		"name": {
-			"singular": "Phantasm",
-			"plural": "Phantasms"
+	"n_4lvl_fantazm_up" : {
+		"name" : {
+			"singular" : "Phantasm",
+			"plural" : "Phantasms"
 		},
-		"level": 4,
-		"special": false,
-		"faction": "nevermore",
-		"cost": {
-			"gold": 340
+		"level" : 4,
+		"special" : false,
+		"faction" : "nevermore",
+		"cost" : {
+			"gold" : 340
 		},
-		"fightValue": 485,
-		"aiValue": 485,
-		"growth": 4,
-		"attack": 12,
-		"defense": 12,
-		"hitPoints": 40,
-		"speed": 6,
-		"damage": {
-			"min": 7,
-			"max": 9
+		"fightValue" : 485,
+		"aiValue" : 485,
+		"growth" : 4,
+		"attack" : 12,
+		"defense" : 12,
+		"hitPoints" : 40,
+		"speed" : 6,
+		"damage" : {
+			"min" : 7,
+			"max" : 9
 		},
-		"spellPoints": 50,
-		"advMapAmount": {
-			"max": 16,
-			"min": 12
+		"spellPoints" : 50,
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 12
 		},
-		"doubleWide": true,
-		"abilities": {
-			"immuneToFire" : 
-			{
+		"doubleWide" : true,
+		"abilities" : {
+			"immuneToFire" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "spellSchool.fire"
 			},
-			"fireShield" :
-			{
+			"fireShield" : {
 				"type" : "FIRE_SHIELD",
 				"val" : 10
 			}
 		},
-		"hasDoubleWeek": true,
-		"graphics": {
-			"animation": "nevermore/creatures/battle/4lvl_fantazm_up.def",
-			"map": "nevermore/creatures/adventure/4lvl_fantazm_up_map.def",
-			"iconSmall": "nevermore/creatures/icon/4lvl_fantazm_up_s.png",
-			"iconLarge": "nevermore/creatures/portrait/4lvl_fantazm_up.png",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "nevermore/creatures/battle/4lvl_fantazm_up.def",
+			"map" : "nevermore/creatures/adventure/4lvl_fantazm_up_map.def",
+			"iconSmall" : "nevermore/creatures/icon/4lvl_fantazm_up_s.png",
+			"iconLarge" : "nevermore/creatures/portrait/4lvl_fantazm_up.png",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound": {
-			"attack": "nevermore/LVL4ATTK.wav",
-			"defend": "nevermore/LVL4DFND.wav",
-			"killed": "nevermore/LVL4KILL.wav",
-			"move": "nevermore/LVL4MOVE.wav",
-			"wince": "nevermore/LVL4WNCE.wav"
+		"sound" : {
+			"attack" : "nevermore/LVL4ATTK.wav",
+			"defend" : "nevermore/LVL4DFND.wav",
+			"killed" : "nevermore/LVL4KILL.wav",
+			"move" : "nevermore/LVL4MOVE.wav",
+			"wince" : "nevermore/LVL4WNCE.wav"
 		}
 	}
 }

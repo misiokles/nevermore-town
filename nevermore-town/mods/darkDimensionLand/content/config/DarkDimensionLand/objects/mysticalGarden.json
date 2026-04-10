@@ -5,9 +5,18 @@
 				"templates" : {
 					"darkDimension_mysticalGarden" : {
 						"animation" : "DarkDimensionLand/objects/mysticalGarden/DDMysticalGarden",
-						"visitableFrom" : ["---", "-+-", "+++"],
-						"mask" : ["VBV", "BAB"],
-						"allowedTerrains" : ["darkdimensionLand"]
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VBV",
+							"BAB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			}

@@ -1,25 +1,33 @@
 {
-	"nn_whisper" :
-	{
+	"nn_whisper" : {
 		"class" : "nn_madman",
 		"female" : false,
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "nevermore/heroes/Whisper/Whisper_as.png",
 			"specialtyLarge" : "nevermore/heroes/Whisper/Whisper_a.png",
 			"large" : "nevermore/heroes/Whisper/Whisper.png",
 			"small" : "nevermore/heroes/Whisper/Whisper_s.png"
 		},
 
-		"army" :
-		[
-			{ "creature" : "n_1lvl_arlequin", "min" : 9, "max" : 15 },
-			{ "creature" : "n_2lvl_screamer", "min" :  6, "max" :  9 },
-			{ "creature" : "n_3lvl_arm", "min" :  3, "max" :  6 }
+		"army" : [
+			{
+				"creature" : "n_1lvl_arlequin",
+				"min" : 9,
+				"max" : 15
+			},
+			{
+				"creature" : "n_2lvl_screamer",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "n_3lvl_arm",
+				"min" : 3,
+				"max" : 6
+			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -29,21 +37,18 @@
 				"skill" : "offence"
 			}
 		],
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Whisper",
 			"biography" : "The whisper glides through the shadows. It always appears unexpectedly, and its thousand-voiced call sounds right in the head, driving its enemies crazy.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Offence skill.",
 				"tooltip" : "speciality : Offence",
 				"name" : "Offence"
 			}
 		},
-		"spellbook" :
-		[
-			"stoneSkin"		
-        ],
+		"spellbook" : [
+			"stoneSkin"
+		],
 		"specialty" : {
 			"bonuses" : {
 				"offence" : {
@@ -58,5 +63,3 @@
 		}
 	}
 }
-
-

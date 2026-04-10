@@ -2,44 +2,84 @@
 	"core:mine" : {
 		"types" : {
 			"crystalCavern" : {
-				"templates": {
+				"templates" : {
 					"darkDimensionLandMines01" : {
 						"animation" : "DarkDimensionLand/special/mines/MCrystal",
-						"visitableFrom": ["---", "+++", "+++"],
-				     	"mask": ["VVVV", "BBB", "VBAB"],
-					    "allowedTerrains": ["darkdimensionLand"]
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"BBB",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			},
 			"goldMine" : {
-				"templates": {
-					"darkDimensionLandMines02": {
-					"animation" : "DarkDimensionLand/special/mines/MGold",
-					"visitableFrom": ["---", "+++", "+++"],
-					"mask": ["VVVV", "BBB", "VBAB"],
-					"allowedTerrains": ["darkdimensionLand"]
+				"templates" : {
+					"darkDimensionLandMines02" : {
+						"animation" : "DarkDimensionLand/special/mines/MGold",
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"BBB",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			},
-			
+
 			"sawmill" : {
 				"templates" : {
-					    "darkDimensionLandMines03": {
-					    "animation" : "DarkDimensionLand/special/mines/MWood",
-                        "mask" : ["VVVVV", "VVBBB", "VBBAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["darkdimensionLand"]
+					"darkDimensionLandMines03" : {
+						"animation" : "DarkDimensionLand/special/mines/MWood",
+						"mask" : [
+							"VVVVV",
+							"VVBBB",
+							"VBBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			},
-			
+
 			"alchemistLab" : {
 				"templates" : {
 					"darkDimensionLandMines04" : {
-						"animation" : "DarkDimensionLand/special/mines/MMercury", 
-						"mask" : ["VVV", "VVV", "BAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["darkdimensionLand"]
+						"animation" : "DarkDimensionLand/special/mines/MMercury",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			},
@@ -47,32 +87,59 @@
 				"templates" : {
 					"darkDimensionLandMines05" : {
 						"animation" : "DarkDimensionLand/special/mines/MOre",
-						"mask" : ["BBB", "BAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["darkdimensionLand"]
+						"mask" : [
+							"BBB",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			},
 			"sulfurDune" : {
 				"templates" : {
 					"darkDimensionLandMines06" : {
-						"animation" : "DarkDimensionLand/special/mines/MSulfur",  
-						"mask" : ["VVV", "BAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-					    "allowedTerrains": ["darkdimensionLand"]
+						"animation" : "DarkDimensionLand/special/mines/MSulfur",
+						"mask" : [
+							"VVV",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			},
 			"gemPond" : {
 				"templates" : {
-					"darkDimensionLandMines07": {
-					"animation" : "DarkDimensionLand/special/mines/MGem",
-					"visitableFrom": ["---", "+++", "+++"],
-					"mask" : ["BBB", "BAB"],
-					"allowedTerrains": ["darkdimensionLand"]
+					"darkDimensionLandMines07" : {
+						"animation" : "DarkDimensionLand/special/mines/MGem",
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"BBB",
+							"BAB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			}
 		}
 	}
-}	
+}

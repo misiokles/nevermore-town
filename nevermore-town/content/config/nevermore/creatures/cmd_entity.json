@@ -1,97 +1,91 @@
-	{
-		"n_cmd_entity": {
-			"name": {
-				"singular": "Entity",
-				"plural": "Entities"
-			},
-			"level": 0,
-			"special": true,
-			"faction": "nevermore",
-			"cost": {
-				"wood": 0,
-				"mercury": 0,
-				"ore": 0,
-				"sulfur": 0,
-				"crystal": 0,
-				"gems": 0,
-				"gold": 140
-			},
-			"fightValue" : 130,
-			"aiValue" : 156,
-			"growth": 9,
-			"attack": 5,
-			"defense": 5,
-			"hitPoints": 40,
-			"speed": 4,
-			"damage": {
-				"min": 6,
-				"max": 12
-			},
-			"spellPoints": 0,
-			"advMapAmount": {
-				"max": 18,
-				"min": 12
-			},
-			"doubleWide": false,
-			"abilities": {
-			"castsMagicArrow" :
-			{
+{
+	"n_cmd_entity" : {
+		"name" : {
+			"singular" : "Entity",
+			"plural" : "Entities"
+		},
+		"level" : 0,
+		"special" : true,
+		"faction" : "nevermore",
+		"cost" : {
+			"wood" : 0,
+			"mercury" : 0,
+			"ore" : 0,
+			"sulfur" : 0,
+			"crystal" : 0,
+			"gems" : 0,
+			"gold" : 140
+		},
+		"fightValue" : 130,
+		"aiValue" : 156,
+		"growth" : 9,
+		"attack" : 5,
+		"defense" : 5,
+		"hitPoints" : 40,
+		"speed" : 4,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		},
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 18,
+			"min" : 12
+		},
+		"doubleWide" : false,
+		"abilities" : {
+			"castsMagicArrow" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.magicArrow",
 				"addInfo" : 22,
 				"val" : 1
 			},
-			"castsFireBoll" :
-			{
+			"castsFireBoll" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.fireball",
 				"addInfo" : 22,
 				"val" : 1
 			},
-			"castsRay" :
-			{
+			"castsRay" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.disruptingRay",
 				"addInfo" : 22,
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"casts" :
-			{
+			"casts" : {
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"regenerate" : 
-			{
+			"regenerate" : {
 				"type" : "HP_REGENERATION",
 				"val" : 60
 			}
-			},
-			"hasDoubleWeek": true,
-			"graphics": {
-				"animation": "nevermore/creatures/battle/cmd_entity.def",
-				"iconSmall": "nevermore/creatures/icon/cmd_entity_s.png",
-				"iconLarge": "nevermore/creatures/portrait/cmd_entity.png",
-				"timeBetweenFidgets": 1.00,
-				"animationTime": {
-					"walk": 1,
-					"idle": 10.00,
-					"attack": 1
-				}
-			},
-			"sound": {
-				"attack": "nevermore/CMDATTK.wav",
-				"defend": "ESULDFND.wav",
-				"killed": "nevermore/CMDKILL.wav",
-				"move": "nevermore/CMDMOVE.wav",
-				"shoot": "nevermore/CMDMAGE.wav",
-				"wince": "nevermore/CMDWNCE.wav",
-				"startMoving": "nevermore/CMDEXT.wav",
-				"endMoving": "nevermore/CMDEXT.wav"
+		},
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "nevermore/creatures/battle/cmd_entity.def",
+			"iconSmall" : "nevermore/creatures/icon/cmd_entity_s.png",
+			"iconLarge" : "nevermore/creatures/portrait/cmd_entity.png",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
+		},
+		"sound" : {
+			"attack" : "nevermore/CMDATTK.wav",
+			"defend" : "ESULDFND.wav",
+			"killed" : "nevermore/CMDKILL.wav",
+			"move" : "nevermore/CMDMOVE.wav",
+			"shoot" : "nevermore/CMDMAGE.wav",
+			"wince" : "nevermore/CMDWNCE.wav",
+			"startMoving" : "nevermore/CMDEXT.wav",
+			"endMoving" : "nevermore/CMDEXT.wav"
 		}
 	}
+}

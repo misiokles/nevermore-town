@@ -1,17 +1,14 @@
 {
-	"nn_cornelius" :
-	{
+	"nn_cornelius" : {
 		"class" : "nn_illusionist",
 		"female" : false,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "nevermore/heroes/Cornelius/Cornelius_as.png",
 			"specialtyLarge" : "nevermore/heroes/Cornelius/Cornelius_a.png",
 			"large" : "nevermore/heroes/Cornelius/Cornelius.png",
 			"small" : "nevermore/heroes/Cornelius/Cornelius_s.png"
 		},
-
 
 		"army" : [
 			{
@@ -30,8 +27,9 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		["clone"],
+		"spellbook" : [
+			"clone"
+		],
 		"skills" : [
 			{
 				"level" : "basic",
@@ -48,10 +46,10 @@
 					"addInfo" : 3,
 					"subtype" : "spell.clone",
 					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
-				}				
+				}
 			}
-		},	
-			
+		},
+
 		"texts" : {
 			"biography" : "In narrow circles, Cornelius is known as the Blind Mad Prophet, who prophesies of a coming era of chaos and madness. On this topic, he wrote a book called 101 Ways to Make Apple Jam. The content of the book is similar to a bunch of recipes, seasoned with all sorts of nonsense and delirium... that's what most people who have read it think. But there are those who don't think so, because the book reveals its true meaning to the chosen ones, and after reading it, the consciousness of these people changes forever.",
 			"name" : "Cornelius",
@@ -63,4 +61,3 @@
 		}
 	}
 }
-

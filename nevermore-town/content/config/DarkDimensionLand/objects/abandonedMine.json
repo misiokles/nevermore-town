@@ -1,13 +1,23 @@
 {
-	"core:abandonedMine": {
-		"types": {
-			"mine": {
-				"templates": {
+	"core:abandonedMine" : {
+		"types" : {
+			"mine" : {
+				"templates" : {
 					"darkDimension_abandonedMine" : {
 						"animation" : "DarkDimensionLand/objects/abandonedMine/AMine",
-						"mask" : [ "VVVV", "VBBB", "VBAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["darkdimensionLand"]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			}

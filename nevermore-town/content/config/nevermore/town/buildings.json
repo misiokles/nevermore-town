@@ -1,80 +1,138 @@
-{ 
+{
 	"nevermore" : {
 		"town" : {
-			"buildingsIcons": "nevermore/townhall",
+			"buildingsIcons" : "nevermore/townhall",
 			"buildings" : {
 				"blacksmith" : {
-					"cost" : { "gold" : 1000, "wood" : 5 },
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
 					"description" : "The Blacksmith provides your armies with Supply Carts.",
 					"id" : 16,
 					"warMachine" : "nn_art_cadaver",
 					"name" : "Blacksmith"
 				},
 				"capitol" : {
-					"cost" : { "gold" : 10000 },
+					"cost" : {
+						"gold" : 10000
+					},
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"id" : 13,
 					"name" : "Capitol",
-					"requires" : [ "castle" ],
+					"requires" : [
+						"castle"
+					],
 					"upgrades" : "cityHall"
 				},
 				"castle" : {
-					"cost" : { "gold" : 5000, "ore" : 10, "wood" : 10 },
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 10,
+						"wood" : 10
+					},
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
 					"id" : 9,
 					"name" : "Castle",
 					"upgrades" : "citadel"
 				},
 				"citadel" : {
-					"cost" : { "gold" : 2500, "ore" : 5 },
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					},
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"id" : 8,
 					"name" : "Citadel",
 					"upgrades" : "fort"
 				},
 				"cityHall" : {
-					"cost" : { "gold" : 5000 },
+					"cost" : {
+						"gold" : 5000
+					},
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"id" : 12,
 					"name" : "City Hall",
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"blacksmith"
+						],
+						[
+							"marketplace"
+						]
+					],
 					"upgrades" : "townHall"
 				},
 				"dwellingLvl1" : {
-					"cost" : { "gold" : 500,"ore" : 10 },
+					"cost" : {
+						"gold" : 500,
+						"ore" : 10
+					},
 					"description" : "The Joker Tent allows you to recruit Jesters.",
 					"id" : 30,
 					"name" : "Joker Tent",
-					"requires" : [ "fort" ]
+					"requires" : [
+						"fort"
+					]
 				},
 				"dwellingLvl2" : {
-					"cost" : { "gold" : 1000, "wood" : 5, "ore" : 5 },
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					},
 					"description" : "The Cave Scream allow you to recruit Screamers.",
 					"id" : 31,
 					"name" : "Cave Scream",
-					"requires" : [ "dwellingLvl1" ]
+					"requires" : [
+						"dwellingLvl1"
+					]
 				},
 				"dwellingLvl3" : {
-					"cost" : { "gold" : 1000, "ore" : 10 },
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 10
+					},
 					"description" : "The Flesh Tearers' lair allows you to recruit Predatory hands.",
 					"id" : 32,
 					"name" : "Flesh Tearers' lair",
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ]]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"blacksmith"
+						]
+					]
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "The Living Rocks allows you to recruit Fire Phantoms.",
 					"name" : "Living Rocks",
-					"cost" : { "gold" : 1000, "ore" : 5 },
-					"requires" : [ "dwellingLvl3" ],
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"requires" : [
+						"dwellingLvl3"
+					],
 					"id" : 33
-				},				
+				},
 				"dwellingLvl5" : {
-					"cost" : { "gems" : 4, "gold" : 2500, "ore" : 5 },
+					"cost" : {
+						"gems" : 4,
+						"gold" : 2500,
+						"ore" : 5
+					},
 					"description" : "The Devouring Maw allows you to recruit Horrors.",
 					"id" : 34,
 					"name" : "Devouring Maw",
-					"requires" : [ "allOf",
+					"requires" : [
+						"allOf",
 						[
 							"dwellingLvl4"
 						],
@@ -83,14 +141,20 @@
 							[
 								"dwellingLvl5B"
 							]
-						] ]
+						]
+					]
 				},
 				"dwellingLvl5B" : {
-					"cost" : { "gems" : 4, "gold" : 2500, "ore" : 5 },
+					"cost" : {
+						"gems" : 4,
+						"gold" : 2500,
+						"ore" : 5
+					},
 					"description" : "The Cage of Suffering allows you to recruit Martyrs.",
 					"name" : "Cage of Suffering",
-					"id" : 48,					
-					"requires" : [ "allOf",
+					"id" : 48,
+					"requires" : [
+						"allOf",
 						[
 							"dwellingLvl4"
 						],
@@ -99,135 +163,242 @@
 							[
 								"dwellingLvl5"
 							]
-						]  ]
+						]
+					]
 				},
 				"dwellingLvl6" : {
-					"cost" : { "gold" : 3000, "ore" : 5, "wood" : 5 },
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 5,
+						"wood" : 5
+					},
 					"description" : "The Psycho Tower allow you to recruit Empaths.",
 					"id" : 35,
 					"name" : "Psycho Tower",
-					"requires" : ["allOf", ["mageGuild1"], ["anyOf",["dwellingLvl5"],["dwellingLvl5B"]]]
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"anyOf",
+							[
+								"dwellingLvl5"
+							],
+							[
+								"dwellingLvl5B"
+							]
+						]
+					]
 				},
 				"dwellingLvl7" : {
-					"cost" : { "gold" : 7500, "ore" : 10, "mercury" : 5, "crystal" : 5, "wood" : 10 },
+					"cost" : {
+						"gold" : 7500,
+						"ore" : 10,
+						"mercury" : 5,
+						"crystal" : 5,
+						"wood" : 10
+					},
 					"description" : "The Portal of the Abyss allows you to recruit Proteas.",
 					"id" : 36,
 					"name" : "Portal of the Abyss",
-					"requires" : [ "dwellingLvl6" ] 
+					"requires" : [
+						"dwellingLvl6"
+					]
 				},
 				"dwellingUpLvl1" : {
-					"cost" : { "gold" : 1000, "ore" : 5 },
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
 					"description" : "The Joker Tent allows you to recruit Harlequins.",
 					"id" : 37,
 					"name" : "Upg. Joker Tent",
-					"requires" : [ "tavern" ],
+					"requires" : [
+						"tavern"
+					],
 					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" : {
-					"cost" : { "gold" : 1000, "wood" : 10 },
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 10
+					},
 					"description" : "The Cave Scream allow you to recruit Howlers.",
 					"id" : 38,
 					"name" : "Upg. Cave Scream",
-					"requires" : [ "blacksmith" ],
+					"requires" : [
+						"blacksmith"
+					],
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" : {
-					"cost" : { "gold" : 1000, "sulfur" : 5 },
+					"cost" : {
+						"gold" : 1000,
+						"sulfur" : 5
+					},
 					"description" : "The Flesh Tearers' lair allows you to recruit Devil's hands.",
 					"id" : 39,
 					"name" : "Upg. Flesh Tearers' lair",
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "The Living Rocks allows you to recruit Phantasms.",
 					"name" : "Upg. Living Rocks",
 					"id" : 40,
-					"cost" : { "crystal" : 5, "gold" : 1500 },
+					"cost" : {
+						"crystal" : 5,
+						"gold" : 1500
+					},
 					"upgrades" : "dwellingLvl4",
-					"requires" : [ "blacksmith" ]
-				},				
+					"requires" : [
+						"blacksmith"
+					]
+				},
 				"dwellingUpLvl5" : {
-					"cost" : { "crystal" : 5, "gold" : 2000, "ore" : 5 },
+					"cost" : {
+						"crystal" : 5,
+						"gold" : 2000,
+						"ore" : 5
+					},
 					"description" : "The Devouring Maw allows you to recruite Terrors.",
 					"id" : 41,
 					"name" : "Upg. Devouring Maw",
 					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl5B" : {
-					"cost" : { "gold" : 2000, "ore" : 5, "gems" : 5 },
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"gems" : 5
+					},
 					"description" : "The Cage of Suffering allows you to recruit Damned martyrs.",
 					"name" : "Upg. Cage of Suffering",
 					"upgrades" : "dwellingLvl5B",
-					"id" : 55,					
-					"requires" : [ "dwellingLvl5B" ]
+					"id" : 55,
+					"requires" : [
+						"dwellingLvl5B"
+					]
 				},
 				"dwellingUpLvl6" : {
-					"cost" : { "crystal" : 5, "gold" : 2000, "ore" : 5, "wood" : 5 },
+					"cost" : {
+						"crystal" : 5,
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
 					"description" : "The Psycho Tower allow you to recruit Psycho-empaths.",
 					"id" : 42,
 					"name" : "Upg. Psycho Tower",
-					"requires" : [ "mageGuild2" ],
+					"requires" : [
+						"mageGuild2"
+					],
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" : {
-					"cost" : { "crystal" : 15, "gold" : 20000, "ore" : 5, "mercury" : 5, "wood" : 5 },
+					"cost" : {
+						"crystal" : 15,
+						"gold" : 20000,
+						"ore" : 5,
+						"mercury" : 5,
+						"wood" : 5
+					},
 					"description" : "The Portal of the Abyss allows you to recruit Dark proteas.",
 					"id" : 43,
 					"name" : "Upg. Portal of the Abyss",
 					"upgrades" : "dwellingLvl7"
 				},
 				"fort" : {
-					"cost" : { "gold" : 5000, "ore" : 20, "wood" : 20 },
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 20,
+						"wood" : 20
+					},
 					"description" : "The Fort provides your town with defensive walls.",
 					"id" : 7,
 					"name" : "Fort"
 				},
-				"grail": {
-					"description": "The Lord of the Abyss increases the weekly generation of creatures by 50% and provides your kingdom with an additional 5000 gold each day, Increases Attack skill by 5 points and increases Spellpower by 6 points for the garrison",
-					"id": 26,
-					"produce": { "gold": 5000 },
-					"bonuses": [
-						{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.attack", "val": 5 },
-						{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.defence", "val": 5 },
-						{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.spellpower", "val": 6 }
+				"grail" : {
+					"description" : "The Lord of the Abyss increases the weekly generation of creatures by 50% and provides your kingdom with an additional 5000 gold each day, Increases Attack skill by 5 points and increases Spellpower by 6 points for the garrison",
+					"id" : 26,
+					"produce" : {
+						"gold" : 5000
+					},
+					"bonuses" : [
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.attack",
+							"val" : 5
+						},
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 5
+						},
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.spellpower",
+							"val" : 6
+						}
 					],
-					"mode": "grail",
-					"name": "Lord of the Abyss"
+					"mode" : "grail",
+					"name" : "Lord of the Abyss"
 				},
 				"horde6" : {
-					"cost" : { "gold" : 5000 },
+					"cost" : {
+						"gold" : 5000
+					},
 					"description" : "The Psychic Radiance increases Empaths production by 1 per week.",
 					"id" : 24,
 					"name" : "Psychic Radiance",
-					"requires" : [ "dwellingLvl6" ]
+					"requires" : [
+						"dwellingLvl6"
+					]
 				},
 				"mageGuild1" : {
-					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5 },
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 5,
+						"wood" : 5
+					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 0,
 					"name" : "Mage Guild Level 1"
 				},
 				"mageGuild2" : {
-					"cost" : { "crystal" : 4, "gems" : 4, "gold" : 1000, "mercury" : 4, "ore" : 5, "sulfur" : 4, "wood" : 5 },
+					"cost" : {
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"wood" : 5
+					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 1,
 					"name" : "Mage Guild Level 2",
 					"upgrades" : "mageGuild1"
 				},
 				"mageGuild3" : {
-					"cost" : { "crystal" : 6, "gems" : 6, "gold" : 1000, "mercury" : 6, "ore" : 5, "sulfur" : 6, "wood" : 5 },
+					"cost" : {
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"wood" : 5
+					},
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"id" : 2,
 					"name" : "Mage Guild Level 3",
 					"upgrades" : "mageGuild2"
 				},
-				"mageGuild4" : 
-				{
+				"mageGuild4" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 8,
 						"ore" : 5,
@@ -240,27 +411,37 @@
 					"upgrades" : "mageGuild3"
 				},
 				"marketplace" : {
-					"cost" : { "gold" : 500, "wood" : 5 },
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"id" : 14,
 					"name" : "Marketplace"
 				},
 				"resourceSilo" : {
-					"cost" : { "gold" : 5000, "ore" : 5 },
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5
+					},
 					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
 					"id" : 15,
 					"name" : "Resource Silo",
-					"produce": { "crystal": 1 },
-					"requires" : [ "marketplace" ]
+					"produce" : {
+						"crystal" : 1
+					},
+					"requires" : [
+						"marketplace"
+					]
 				},
 
-				"special1": {
-					"cost": {
-						"crystal": 3,
-						"gems": 3,
-						"gold": 2000
+				"special1" : {
+					"cost" : {
+						"crystal" : 3,
+						"gems" : 3,
+						"gold" : 2000
 					},
-					"description": "The Dark Rift can triple the mana of one hero once a week.",
+					"description" : "The Dark Rift can triple the mana of one hero once a week.",
 					"configuration" : {
 						"resetParameters" : {
 							"period" : 7,
@@ -270,43 +451,57 @@
 						"rewards" : [
 							{
 								"limiter" : {
-									"noneOf" : [ { "manaPercentage" : 300 } ]
+									"noneOf" : [
+										{
+											"manaPercentage" : 300
+										}
+									]
 								},
 								"message" : "@core.genrltxt.579",
 								"manaPercentage" : 300
 							}
 						]
 					},
-					"id": 17,
-					"name": "Dark Rift",
-					"requires": [
+					"id" : 17,
+					"name" : "Dark Rift",
+					"requires" : [
 						"mageGuild1"
 					]
 				},
-				"special2": {
-					"cost": {
-						"gold": 9000
+				"special2" : {
+					"cost" : {
+						"gold" : 9000
 					},
-					"description": "Sanctuary of the cultists can exchange resources for artifacts.",
-					"id": 21,
-					"name": "Sanctuary of the cultists",
-					"requires": [
+					"description" : "Sanctuary of the cultists can exchange resources for artifacts.",
+					"id" : 21,
+					"name" : "Sanctuary of the cultists",
+					"requires" : [
 						"mageGuild2"
 					],
-					"marketModes" : ["resource-artifact", "artifact-resource"]
+					"marketModes" : [
+						"resource-artifact",
+						"artifact-resource"
+					]
 				},
 				"tavern" : {
-					"cost" : { "gold" : 500, "wood" : 5 },
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					},
 					"description" : "The Tavern increases morale for troops defending the city.",
 					"id" : 5,
 					"name" : "Tavern"
 				},
 				"townHall" : {
-					"cost" : { "gold" : 2500 },
+					"cost" : {
+						"gold" : 2500
+					},
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"id" : 11,
 					"name" : "Town Hall",
-					"requires" : [ "tavern" ],
+					"requires" : [
+						"tavern"
+					],
 					"upgrades" : "villageHall"
 				},
 				"villageHall" : {

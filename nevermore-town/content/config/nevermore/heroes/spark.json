@@ -1,11 +1,9 @@
 {
-	"nn_Spark" :
-	{
+	"nn_Spark" : {
 		"class" : "nn_illusionist",
 		"female" : true,
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "nevermore/heroes/Spark/Spark_as.png",
 			"specialtyLarge" : "nevermore/heroes/Spark/Spark_a.png",
 			"large" : "nevermore/heroes/Spark/Spark.png",
@@ -28,8 +26,7 @@
 				"min" : 5
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"haste"
 		],
 		"skills" : [
@@ -53,7 +50,7 @@
 				}
 			}
 		},
-			
+
 		"texts" : {
 			"biography" : "Not everyone had a happy ending to the madness in the elementary dimensions. Spark got stuck in the Dimension-between-Dimensions and spent a long time looking for a way out. The alien world played with her, putting up illusory gates that disappeared before her nose. When despair finally broke Spark, the fire in her soul went out. All that remained was an endless void that had worked her.",
 			"name" : "Spark",
@@ -65,4 +62,3 @@
 		}
 	}
 }
-

@@ -1,71 +1,68 @@
 {
-	"n_7lvl_protei": {
-		"name": {
-			"singular": "Proteus",
-			"plural": "Proteas"
+	"n_7lvl_protei" : {
+		"name" : {
+			"singular" : "Proteus",
+			"plural" : "Proteas"
 		},
-		"upgrades": [
+		"upgrades" : [
 			"n_7lvl_protei_up"
 		],
-		"level": 7,
-		"special": false,
-		"faction": "nevermore",
-		"cost": {
-			"gold": 2600,
-			"crystal": 1
+		"level" : 7,
+		"special" : false,
+		"faction" : "nevermore",
+		"cost" : {
+			"gold" : 2600,
+			"crystal" : 1
 		},
-		"fightValue": 3700,
-		"aiValue": 4900,
-		"growth": 1,
-		"attack": 20,
-		"defense": 20,
-		"hitPoints": 190,
-		"speed": 11,
-		"damage": {
-			"min": 40,
-			"max": 50
+		"fightValue" : 3700,
+		"aiValue" : 4900,
+		"growth" : 1,
+		"attack" : 20,
+		"defense" : 20,
+		"hitPoints" : 190,
+		"speed" : 11,
+		"damage" : {
+			"min" : 40,
+			"max" : 50
 		},
-		"spellPoints": 0,
-		"advMapAmount": {
-			"max": 11,
-			"min": 4
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 11,
+			"min" : 4
 		},
-		"doubleWide": false,
-		"abilities": {
-			"teleports" :
-			{
+		"doubleWide" : false,
+		"abilities" : {
+			"teleports" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
 			},
-			"twoHex" :
-			{
+			"twoHex" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "GARGOYLE"
 			}
-			     },
-		"hasDoubleWeek": false,
-		"graphics": {
-			"animation": "nevermore/creatures/battle/7lvl_protei.def",
-			"map": "nevermore/creatures/adventure/7lvl_protei_map.def",
-			"iconSmall": "nevermore/creatures/icon/7lvl_protei_s.png",
-			"iconLarge": "nevermore/creatures/portrait/7lvl_protei.png",
-			"timeBetweenFidgets": 1.00,
-			"animationTime": {
-				"walk": 1,
-				"idle": 10.00,
-				"attack": 1
+		},
+		"hasDoubleWeek" : false,
+		"graphics" : {
+			"animation" : "nevermore/creatures/battle/7lvl_protei.def",
+			"map" : "nevermore/creatures/adventure/7lvl_protei_map.def",
+			"iconSmall" : "nevermore/creatures/icon/7lvl_protei_s.png",
+			"iconLarge" : "nevermore/creatures/portrait/7lvl_protei.png",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
 			}
 		},
-		"sound": {
-			"attack": "BIND.wav",
-			"defend": "nevermore/LVL7DFND.wav",
-			"killed": "nevermore/LVL7KILL.wav",
-			"wince": "nevermore/LVL7WNCE.wav",
-			"startMoving": "nevermore/LVL7EXT.wav",
-			"endMoving": "nevermore/LVL7EXT.wav"
+		"sound" : {
+			"attack" : "BIND.wav",
+			"defend" : "nevermore/LVL7DFND.wav",
+			"killed" : "nevermore/LVL7KILL.wav",
+			"wince" : "nevermore/LVL7WNCE.wav",
+			"startMoving" : "nevermore/LVL7EXT.wav",
+			"endMoving" : "nevermore/LVL7EXT.wav"
 		}
 	}
 }

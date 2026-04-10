@@ -6,23 +6,36 @@
 				"templates" : {
 					"darkDimensionFaults1" : {
 						"animation" : "DarkDimensionLand/decorations/lakes/SLake",
-						"mask" : ["VBBB"],
-						"allowedTerrains" : ["darkdimensionLand"]
+						"mask" : [
+							"VBBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"darkDimensionFaults2" : {
 						"animation" : "DarkDimensionLand/decorations/lakes/ALake",
-						"mask" : ["VVV", "BBB", "BBB"],
-						"allowedTerrains" : ["darkdimensionLand"]
+						"mask" : [
+							"VVV",
+							"BBB",
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"darkDimensionFaults3" : {
 						"animation" : "DarkDimensionLand/decorations/lakes/BLake",
-						"mask" : ["VBBBB", "VBBBB"],
-						"allowedTerrains" : ["darkdimensionLand"]
+						"mask" : [
+							"VBBBB",
+							"VBBBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			}
-		}	
-	}	
+		}
+	}
 }
-	
-	

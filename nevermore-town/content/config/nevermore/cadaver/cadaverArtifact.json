@@ -1,22 +1,21 @@
 {
-	"nn_art_cadaver":
-	{
-		"type" : ["HERO"],
+	"nn_art_cadaver" : {
+		"type" : [
+			"HERO"
+		],
 		"warMachine" : "nn_cadaver",
 		"class" : "SPECIAL",
 		"slot" : "MACH1",
-		"value": 3500,
-		"text":
-		{
-			"name": "Cadaver",
-			"description": "{Cadaver}\r\n\r\nUse this power to destroy fortifications and enemy armies.",
-			"event": "You are lucky enough to be the owner of a soulless mass of flesh and bones that brings destruction."
+		"value" : 3500,
+		"text" : {
+			"name" : "Cadaver",
+			"description" : "{Cadaver}\r\n\r\nUse this power to destroy fortifications and enemy armies.",
+			"event" : "You are lucky enough to be the owner of a soulless mass of flesh and bones that brings destruction."
 		},
-		"graphics":
-		{
-			"image": "nevermore/cadaver/Cadaver_icon.png",
+		"graphics" : {
+			"image" : "nevermore/cadaver/Cadaver_icon.png",
 			"large" : "nevermore/cadaver/CadaverLarge.png",
-			"map": "nevermore/сadaver/cadaverA.def"
+			"map" : "nevermore/сadaver/cadaverA.def"
 		}
 	}
 }

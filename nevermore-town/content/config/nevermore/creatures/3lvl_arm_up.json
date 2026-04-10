@@ -1,59 +1,58 @@
-	{
-		"n_3lvl_arm_up": {
-			"name": {
-				"singular": "Devil's Hand",
-				"plural": "Devil's hands"
-			},
-			"level": 3,
-			"special": false,
-			"faction": "nevermore",
-			"cost": {
-				"gold": 210
-			},
-			"fightValue": 285,
-			"aiValue": 360,
-			"growth": 6,
-			"attack": 9,
-			"defense": 8,
-			"hitPoints": 22,
-			"speed": 7,
-			"damage": {
-				"min": 4,
-				"max": 7
-			},
-			"spellPoints": 0,
-			"advMapAmount": {
-				"max": 18,
-				"min": 12
-			},
-			"doubleWide": true,
-			"abilities": {
-				"slowness" :
-				{
-					"type": "SPELL_AFTER_ATTACK",
-					"subtype": "spell.slow",
-					"val": 100
-				}
-			},	
-			"hasDoubleWeek": true,
-			"graphics": {
-				"animation": "nevermore/creatures/battle/3lvl_arm_up.def",
-				"map": "nevermore/creatures/adventure/3lvl_arm_up_map.def",
-				"iconSmall": "nevermore/creatures/icon/3lvl_arm_up_s.png",
-				"iconLarge": "nevermore/creatures/portrait/3lvl_arm_up.png",
-				"timeBetweenFidgets": 1.00,
-				"animationTime": {
-					"walk": 1,
-					"idle": 10.00,
-					"attack": 1
-				}
-			},
-			"sound": {
-				"attack": "nevermore/LVL3ATTK.wav",
-				"defend": "nevermore/LVL3DFND.wav",
-				"killed": "nevermore/LVL3KILL.wav",
-				"move": "nevermore/LVL3MOVE.wav",
-				"wince": "nevermore/LVL3WNCE.wav"
+{
+	"n_3lvl_arm_up" : {
+		"name" : {
+			"singular" : "Devil's Hand",
+			"plural" : "Devil's hands"
+		},
+		"level" : 3,
+		"special" : false,
+		"faction" : "nevermore",
+		"cost" : {
+			"gold" : 210
+		},
+		"fightValue" : 285,
+		"aiValue" : 360,
+		"growth" : 6,
+		"attack" : 9,
+		"defense" : 8,
+		"hitPoints" : 22,
+		"speed" : 7,
+		"damage" : {
+			"min" : 4,
+			"max" : 7
+		},
+		"spellPoints" : 0,
+		"advMapAmount" : {
+			"max" : 18,
+			"min" : 12
+		},
+		"doubleWide" : true,
+		"abilities" : {
+			"slowness" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.slow",
+				"val" : 100
 			}
+		},
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"animation" : "nevermore/creatures/battle/3lvl_arm_up.def",
+			"map" : "nevermore/creatures/adventure/3lvl_arm_up_map.def",
+			"iconSmall" : "nevermore/creatures/icon/3lvl_arm_up_s.png",
+			"iconLarge" : "nevermore/creatures/portrait/3lvl_arm_up.png",
+			"timeBetweenFidgets" : 1.0,
+			"animationTime" : {
+				"walk" : 1,
+				"idle" : 10.0,
+				"attack" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "nevermore/LVL3ATTK.wav",
+			"defend" : "nevermore/LVL3DFND.wav",
+			"killed" : "nevermore/LVL3KILL.wav",
+			"move" : "nevermore/LVL3MOVE.wav",
+			"wince" : "nevermore/LVL3WNCE.wav"
 		}
 	}
+}

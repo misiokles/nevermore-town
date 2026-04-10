@@ -1,39 +1,44 @@
 {
-	"nn_jack" : 
-	{
+	"nn_jack" : {
 		"class" : "nn_illusionist",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Jack",
 			"biography" : "Jack is unpredictability itself. One minute he is cheerful and good-natured. The next he is wrapping your intestines around your neck or sawing off your head with a blunt knife... although, most of all he loves to tickle to death. Jack is an inspiration for many harlequins, because he is the only one who was able to dance for 25 hours on the grave of King Gryphonheart... and would have continued dancing, if the guard had not woken up...",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "{Sorrow}\r\n\r\nCasts Sorrow spell with expert effects but not expert range.",
 				"tooltip" : "Spell Bonus: Sorrow",
 				"name" : "Sorrow"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "nevermore/heroes/Jack/Jack_as.png",
 			"specialtyLarge" : "nevermore/heroes/Jack/Jack_a.png",
 			"large" : "nevermore/heroes/Jack/Jack.png",
 			"small" : "nevermore/heroes/Jack/Jack_s.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"sorrow"
 		],
-		"army" :
-		[
-			{ "creature" : "n_1lvl_arlequin", "min" : 10, "max" : 20 },
-			{ "creature" : "n_1lvl_arlequin", "min" : 10, "max" : 20 },
-			{ "creature" : "n_2lvl_screamer", "min" : 6, "max" : 10 }
+		"army" : [
+			{
+				"creature" : "n_1lvl_arlequin",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "n_1lvl_arlequin",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "n_2lvl_screamer",
+				"min" : 6,
+				"max" : 10
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -54,5 +59,3 @@
 		}
 	}
 }
-
-

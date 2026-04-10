@@ -1,46 +1,46 @@
 {
-	"nn_jenny": {
-		"army": [
+	"nn_jenny" : {
+		"army" : [
 			{
-				"creature": "n_1lvl_arlequin",
-				"max": 25,
-				"min": 15
+				"creature" : "n_1lvl_arlequin",
+				"max" : 25,
+				"min" : 15
 			},
 			{
-				"creature": "n_2lvl_screamer",
-				"max": 9,
-				"min": 7
+				"creature" : "n_2lvl_screamer",
+				"max" : 9,
+				"min" : 7
 			},
 			{
-				"creature": "n_3lvl_arm",
+				"creature" : "n_3lvl_arm",
 				"max" : 6,
 				"min" : 4
 			}
 		],
-		"female": true,
-		"class": "nn_illusionist",
-		"spellbook": [
+		"female" : true,
+		"class" : "nn_illusionist",
+		"spellbook" : [
 			"hypnotize"
 		],
-		"images": {
-			"large": "nevermore/heroes/Jenny/Jenny.png",
-			"small": "nevermore/heroes/Jenny/Jenny_s.png",
-			"specialtyLarge": "nevermore/heroes/Jenny/Jenny_a.png",
-			"specialtySmall": "nevermore/heroes/Jenny/Jenny_as.png"
+		"images" : {
+			"large" : "nevermore/heroes/Jenny/Jenny.png",
+			"small" : "nevermore/heroes/Jenny/Jenny_s.png",
+			"specialtyLarge" : "nevermore/heroes/Jenny/Jenny_a.png",
+			"specialtySmall" : "nevermore/heroes/Jenny/Jenny_as.png"
 		},
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "mysticism"
+				"level" : "basic",
+				"skill" : "mysticism"
 			},
 			{
-				"level": "basic",
-				"skill": "airMagic"
+				"level" : "basic",
+				"skill" : "airMagic"
 			}
 		],
-		"specialty": {
-			"bonuses": {
-				"hypnotize": {
+		"specialty" : {
+			"bonuses" : {
+				"hypnotize" : {
 					"subtype" : "spell.hypnotize",
 					"type" : "SPELL",
 					"val" : 3,
@@ -48,13 +48,13 @@
 				}
 			}
 		},
-		"texts": {
-			"biography": "As a child, Jenny had a home and a large family. Even then, they noticed that the girl suffered from sleepwalking, but they could not imagine that one day she would cut out her entire family in her sleep. So she found herself alone with her teddy bear... When the first Limits appeared, Jenny began to see terrible images of that night that she had been trying to forget all these years. This led to the fact that one day in her sleep she released such a powerful flow of magical energy that she burned down the entire monastery along with its inhabitants. That same night, she left. Jenny walked without making out the road, her head was in confusion. Coincidence or not, but she came to one of the Limits.",
-			"name": "Jenny",
-			"specialty": {
-				"description": "Cast Hypnotize with maxed power.",
-				"name": "Hypnotize",
-				"tooltip": "{Hypnotize}\r\n\r\nCasts Hypnotize with expert effects. Starts with Hypnotize spell."
+		"texts" : {
+			"biography" : "As a child, Jenny had a home and a large family. Even then, they noticed that the girl suffered from sleepwalking, but they could not imagine that one day she would cut out her entire family in her sleep. So she found herself alone with her teddy bear... When the first Limits appeared, Jenny began to see terrible images of that night that she had been trying to forget all these years. This led to the fact that one day in her sleep she released such a powerful flow of magical energy that she burned down the entire monastery along with its inhabitants. That same night, she left. Jenny walked without making out the road, her head was in confusion. Coincidence or not, but she came to one of the Limits.",
+			"name" : "Jenny",
+			"specialty" : {
+				"description" : "Cast Hypnotize with maxed power.",
+				"name" : "Hypnotize",
+				"tooltip" : "{Hypnotize}\r\n\r\nCasts Hypnotize with expert effects. Starts with Hypnotize spell."
 			}
 		}
 	}

@@ -1,22 +1,24 @@
 {
-	"name": "Nevermore-town",
-	"description": "The new city of Nevermore",
-	"author": "Vovan1698",
-	"contact": "discord: Vovan1698",
-	"version": "1.0",
-	"modType": "Town",
-	"depends" : [ "hota.interference" ], 
-	"compatibility": {
-		"min": "1.6.0"
+	"name" : "Nevermore-town",
+	"description" : "The new city of Nevermore",
+	"author" : "Vovan1698",
+	"contact" : "discord: Vovan1698",
+	"version" : "1.0",
+	"modType" : "Town",
+	"depends" : [
+		"hota.interference"
+	],
+	"compatibility" : {
+		"min" : "1.6.0"
 	},
-	"russian": {
-		"name": "Предел",
-		"description": "Новый город Предел, созданный по наработкам hota-crew.",
-		"translations": [
+	"russian" : {
+		"name" : "Предел",
+		"description" : "Новый город Предел, созданный по наработкам hota-crew.",
+		"translations" : [
 			"translation/nevermore/russian.json"
 		]
 	},
-	"factions": [
+	"factions" : [
 		"config/nevermore/town/faction.json",
 		"config/nevermore/town/buildings.json",
 		"config/nevermore/town/structures.json",
@@ -24,7 +26,7 @@
 		"config/nevermore/town/siege.json",
 		"config/nevermore/town/puzzle.json"
 	],
-	"creatures": [
+	"creatures" : [
 		"config/nevermore/creatures/1lvl_arlequin.json",
 		"config/nevermore/creatures/1lvl_arlequin_up.json",
 		"config/nevermore/creatures/2lvl_screamer.json",
@@ -45,20 +47,17 @@
 		"config/nevermore/creatures/4lvln_slime.json",
 		"config/nevermore/cadaver/cadaverCreature.json"
 	],
-	"artifacts" :
-	[
-		"config/nevermore/cadaver/cadaverArtifact.json" 
+	"artifacts" : [
+		"config/nevermore/cadaver/cadaverArtifact.json"
 	],
-	"skills":
-	[
+	"skills" : [
 		"config/nevermore/cadaver/artillery.json"
 	],
-	"heroClasses": [
+	"heroClasses" : [
 		"config/nevermore/classes/illusionist.json",
 		"config/nevermore/classes/madman.json"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/nevermore/spells/n_Explosion.json",
 		"config/nevermore/spells/n_PsychicBlow.json",
 		"config/nevermore/spells/n_PsychicBlowUp.json",
@@ -66,7 +65,7 @@
 		"config/nevermore/spells/n_DeathSight",
 		"config/nevermore/spells/n_Curse"
 	],
-	"heroes": [
+	"heroes" : [
 		"config/nevermore/heroes/absorber.json",
 		"config/nevermore/heroes/azakor.json",
 		"config/nevermore/heroes/cornelius.json",
@@ -84,23 +83,19 @@
 		"config/nevermore/heroes/whisper.json",
 		"config/nevermore/heroes/zantora.json"
 	],
-	"battlefields":
-	[
+	"battlefields" : [
 		"config/DarkDimensionLand/battlefields/battlefields.json"
 	],
-	"terrains":
-	[
+	"terrains" : [
 		"config/DarkDimensionLand/terrain/terrains.json"
 	],
-	"obstacles":
-	[
+	"obstacles" : [
 		"config/DarkDimensionLand/obstacles/obstacles.json"
 	],
-	"rivers":
-	[
+	"rivers" : [
 		"config/DarkDimensionLand/terrain/rivers.json"
 	],
-	"objects": [
+	"objects" : [
 		"config/nevermore/dwellings.json",
 		"config/nevermore/banks/nevermoreBezdna.json",
 		"config/DarkDimensionLand/decorations/fracture.json",
@@ -114,7 +109,7 @@
 		"config/DarkDimensionLand/objects/abandonedMine.json",
 		"config/DarkDimensionLand/objects/hillFort.json",
 		"config/DarkDimensionLand/objects/mysticalGarden.json",
-	    	"config/DarkDimensionLand/objects/signs.json",
+		"config/DarkDimensionLand/objects/signs.json",
 		"config/DarkDimensionLand/objects/tavern.json",
 		"config/DarkDimensionLand/objects/treeOfKnowledge.json",
 		"config/DarkDimensionLand/objects/deltas.json",

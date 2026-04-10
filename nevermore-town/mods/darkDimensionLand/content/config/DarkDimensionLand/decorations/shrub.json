@@ -1,52 +1,89 @@
 {
-	"core:shrub" :{
+	"core:shrub" : {
 		"types" : {
 			"object" : {
 				"templates" : {
 					"darkDimensionSHR1" : {
 						"animation" : "DarkDimensionLand/decorations/shrub/AFlower",
-						"mask" : [ "BBB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"darkDimensionSHR3" : {
 						"animation" : "DarkDimensionLand/decorations/shrub/BigFlowers",
-						"mask" : [ "VBBB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VBBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"darkDimensionSHR4" : {
 						"animation" : "DarkDimensionLand/decorations/shrub/Bush",
-						"mask" : [ "VBB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"darkDimensionSHR5" : {
 						"animation" : "DarkDimensionLand/decorations/shrub/EyeFlower",
-						"mask" : [ "VBV" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"darkDimensionSHR6" : {
 						"animation" : "DarkDimensionLand/decorations/shrub/Flover",
-						"mask" : [ "VB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"darkDimensionSHR7" : {
 						"animation" : "DarkDimensionLand/decorations/shrub/Ftump",
-						"mask" : [ "VB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"darkDimensionSHR8" : {
 						"animation" : "DarkDimensionLand/decorations/shrub/LyingTentacle",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"darkDimensionSHR9" : {
 						"animation" : "DarkDimensionLand/decorations/shrub/Stump",
-						"mask" : [ "B" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"darkDimensionSHR10" : {
 						"animation" : "DarkDimensionLand/decorations/shrub/TStump",
-						"mask" : [ "B" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					}
 				}
 			}

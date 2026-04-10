@@ -1,58 +1,121 @@
 {
-   "core:mountain" : {
+	"core:mountain" : {
 		"types" : {
 			"object" : {
 				"templates" : {
 					"DarkDimensionLand_reROC1" : {
 						"animation" : "DarkDimensionLand/decorations/mountains/BigMount",
-						"mask" : [ "VVVVV", "VVBBV", "VBBBB", "VBBBB", "VBBBB"],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VVVVV",
+							"VVBBV",
+							"VBBBB",
+							"VBBBB",
+							"VBBBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"DarkDimensionLand_reROC2" : {
 						"animation" : "DarkDimensionLand/decorations/mountains/BMountR",
-						"mask" : [ "VVVVVV", "VBBBBV", "VBBBBB", "VVVBBB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VVVVVV",
+							"VBBBBV",
+							"VBBBBB",
+							"VVVBBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"DarkDimensionLand_reROC3" : {
 						"animation" : "DarkDimensionLand/decorations/mountains/BMountL",
-						"mask" : [ "VVVVVV", "VVBBBB", "VBBBBB", "VBBBVV" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VVVVVV",
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"DarkDimensionLand_reROC4" : {
 						"animation" : "DarkDimensionLand/decorations/mountains/AMountR",
-						"mask" : [ "VVVV", "VBBB", "VVBB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"DarkDimensionLand_reROC5" : {
 						"animation" : "DarkDimensionLand/decorations/mountains/AMountL",
-						"mask" : [ "VVVV", "VBBB", "VBBV" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"DarkDimensionLand_reROC6" : {
 						"animation" : "DarkDimensionLand/decorations/mountains/SMountR",
-						"mask" : [ "VVVV", "VVBB", "VBBV" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"DarkDimensionLand_reROC7" : {
 						"animation" : "DarkDimensionLand/decorations/mountains/SMountL",
-						"mask" : [ "VVVV", "VBBV", "VVBB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
 					},
 					"DarkDimensionLand_reROC8" : {
 						"animation" : "DarkDimensionLand/decorations/mountains/MountWorm",
-						"mask" : [ "VVVVV", "VVBBB", "VBBBB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
-				    	},
+						"mask" : [
+							"VVVVV",
+							"VVBBB",
+							"VBBBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
+					},
 					"DarkDimensionLand_reROC9" : {
 						"animation" : "DarkDimensionLand/decorations/mountains/BCrater",
-						"mask" : [ "VVVV", "VVBB", "VBBB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
-				    	},
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
+					},
 					"DarkDimensionLand_reROC10" : {
 						"animation" : "DarkDimensionLand/decorations/mountains/SCrater",
-						"mask" : [ "VVV", "VBB" ],
-						"allowedTerrains": [ "darkdimensionLand" ]
-				    	}
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"darkdimensionLand"
+						]
+					}
 				}
 			}
 		}
